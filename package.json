@@ -1,0 +1,15 @@
+{
+  "name": "courts-app",
+  "version": "1.0.0",
+  "description": "Courts Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Courts",
+    "Application"
+  ],
+  "author": "",
+  "license": "ISC"
+}
