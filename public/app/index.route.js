@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('webapps')
+    .module('courtApp')
     .config(routerConfig);
 
   /** @ngInject */
