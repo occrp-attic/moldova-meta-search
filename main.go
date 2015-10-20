@@ -20,7 +20,7 @@ func main() {
 	// Register API Routes
 	apiRoutes := router.Group("/api/v1")
 	{
-		apiRoutes.GET("/courts/search/:page/:searchTerm", courts.SearchAction)
+		apiRoutes.GET("/courts/search/:searchTerm", courts.SearchAction)
 	}
 	router.Run(":8000")
 }
