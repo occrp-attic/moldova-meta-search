@@ -55,10 +55,11 @@ func processData(data APIResponse, court string) []CourtItem {
 		result := CourtItem{}
 		result.Court = court
 		result.Date = value.Cell[1]
-		result.PdfURL = value.Cell[0]
+		// result.PdfURL = value.Cell[0]
 		result.Subject = value.Cell[5]
 		result.Title = value.Cell[3]
 		result.Type = value.Cell[4]
+		result.Number = value.Cell[2]
 		results = append(results, result)
 	}
 

@@ -1,14 +1,26 @@
 <div class="search-service">
     <div class="container">
-        <form class="form-horizontal" ng-submit="main.search()" novalidate="novalidate">
-            <div class="form-group">
+        <form name="searchForm" class="form-horizontal" ng-submit="main.search()" novalidate="novalidate">
+            <div class="form-group" ng-class="{'has-error': searchForm.keyword.$error.minlength}">
                 <label for="searchbox" class="sr-only">Keyword</label>
-
                 <div class="col-sm-5">
-                    <input ng-model="main.keyword" required="required" name="keyword" type="text" class="form-control" id="searchbox" placeholder="Search" />
+                    <input
+                        ng-model="main.keyword"
+                        ng-minlength="3"
+                        required="required"
+                        name="keyword"
+                        type="text"
+                        class="form-control"
+                        id="searchbox"
+                        placeholder="Search" />
                 </div>
                 <div class="col-sm-2">
-                    <button type="submit" class="btn btn-primary btn-block">Go</button>
+                    <button
+                        type="submit"
+                        class="btn btn-primary btn-block"
+                        ng-disabled="main.loading || searchForm.keyword.$error.minlength">
+                        Go
+                    </button>
                 </div>
             </div>
         </form>
@@ -16,27 +28,43 @@
 </div>
 
 
-<div class="search-results" ng-show="main.results.length">
+<div class="search-results" >
     <div class="container">
-        <div class="form-inline">
-            <div class="form-group">
-                <input ng-model="main_input" required="required" name="keyword" type="text" class="form-control" placeholder="Filter" />
+        <div class="row" ng-show="main.results.length && !main.loading">
+            <div class="col-md-8">
+                <div class="panel panel-default" ng-repeat="result in main.results | filter:main_input">
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li><a class="pdf-link" ng-href="{{result.pdfURL}}" ng-bind-html="result.title"></a></li>
+                            <li><strong>Date:</strong> {{result.date ? result.date : 'Being processed'}}</li>
+                            <li><strong>Document number:</strong> {{result.number}}</li>
+                            <li><strong>Court:</strong> {{result.court}}</li>
+                            <li><strong>Document type:</strong> {{result.type}}</li>
+                            <li><strong>Document subject:</strong> {{result.subject}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <input ng-model="main_input" required="required" name="keyword" type="text" class="form-control" placeholder="Quick Filter" />
+                    </div>
+                </div>
+
+                <br />
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        Advanced Filter
+                    </div>
+                </div>
             </div>
         </div>
-        <br />
 
-        <div class="panel panel-default" ng-repeat="result in main.results | filter:main_input">
-            <div class="panel-body">
-                <ul class="list-unstyled">
-                    <li><a ng-href="{{result.docUrl}}">{{result.docName}}</a></li>
-                    <li><strong>Date:</strong> {{result.date}}</li>
-                    <li><strong>Document number:</strong> {{result.docNr}}</li>
-                    <li><strong>Document name:</strong> {{result.docName}}</li>
-                    <li><strong>Document type:</strong> {{result.docType}}</li>
-                    <li><strong>Document subject:</strong> {{result.docSubject}}</li>
-                    <li><strong>Field:</strong> {{result.unknownField2}}</li>
-                </ul>
-            </div>
+        <div class="row" ng-show="!main.results.length || main.loading">
+            <div class="alert alert-default">There are no results to be displayed.</div>
         </div>
     </div>
 </div>
