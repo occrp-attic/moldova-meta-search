@@ -5,14 +5,18 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// IndexAction - Test Action
-func IndexAction(context *gin.Context) {
-	var results []helpers.Court
+// SearchAction - query data from the instances and format them
+func SearchAction(context *gin.Context) {
+	var results []helpers.CourtItem
 	responseCode := 200
-	for slug := range helpers.CourtSlugs {
+	for slug, courtName := range helpers.CourtSlugs {
 		url := helpers.GenerateAPIUrl(slug)
-		if data, code, errors := helpers.MakeAPICall(url); code == 200 && errors == nil {
-			results = append(results, data.Rows...)
+		if data, code, errors := helpers.MakeAPICall(
+			url,
+			context.Param("searchTerm"),
+			courtName,
+		); code == 200 && errors == nil {
+			results = append(results, data...)
 		} else {
 			context.JSON(responseCode, errors)
 			break
@@ -22,9 +26,9 @@ func IndexAction(context *gin.Context) {
 	context.JSON(responseCode, results)
 }
 
-// SearchAction - Recipes list
-func SearchAction(context *gin.Context) {
-	// url := fmt.Sprintf("%s/search?key=%s", apiURL, apiKEY)
-	// data, responseCode := utils.MakeAPICall(url)
-	// context.JSON(responseCode, data)
+// IndexAction - application start page
+func IndexAction(context *gin.Context) {
+	context.HTML(200, "index.html", gin.H{
+		"title": "Meta Search",
+	})
 }
