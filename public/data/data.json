@@ -1,0 +1,56 @@
+[
+  {
+    "docUrl" : "http://instante.justice.md/apps/hotariri_judecata/inst/cac/get_decision_doc.php?decision_key=A5FF4186-2876-E511-8A1B-005056A5D154&case_title=Dosar-02-1a-11822-16062015-1",
+    "date" : "21-10-2013",
+    "docNr" : "02-1a-11822-16062015",
+    "docName" : "Guțu Nicolae Ion",
+    "docType" : "Penal",
+    "docSubject" : "Violarea de domiciliu (art. 179)",
+    "unknownField2" : "1",
+    "court" : ""
+  },
+  {
+    "docUrl" : "get_decision_doc.php?decision_key=5EDE5112-5676-E511-8A1B-005056A5D154&case_title=Dosar-02-2r-14620-24072015-2\" target=\"_blank\">PDF_doc<\/a>",
+    "date" : "19-10-2015",
+    "docNr" : "02-2r-14620-24072015",
+    "docName" : "IM Agrino Investments SRL vs SA Moldconinvest",
+    "docType" : "Civil",
+    "docSubject" : "Ac\u021biuni privind \u00eencasarea prejudiciului moral",
+    "unknownField2" : "2",
+    "court" : ""
+  },
+  {
+    "docUrl" : "get_decision_doc.php?decision_key=5EDE5112-5676-E511-8A1B-005056A5D154&case_title=Dosar-02-2r-14620-24072015-2\" target=\"_blank\">PDF_doc<\/a>",
+    "date" : "19-10-2015",
+    "docNr" : "02-2r-14690-27072015",
+    "docName" : "SRL Luxcar vs Cadin Vasili Vasili",
+    "docType" : "Civil",
+    "docSubject" : "Ac\u021biuni privind \u00eencasarea prejudiciului material, datoriei, sumei",
+    "unknownField2" : "3",
+    "court" : ""
+  },
+  {
+    "docUrl" : "get_decision_doc.php?decision_key=5EDE5112-5676-E511-8A1B-005056A5D154&case_title=Dosar-02-2r-14620-24072015-2\" target=\"_blank\">PDF_doc<\/a>",
+    "date" : "23-10-2015",
+    "docNr" : "02-2r-14690-27072015",
+    "docName" : "Andritchi Eugenia vs Crismaru Svetlana",
+    "docType" : "Civil",
+    "docSubject" : "Litigii privind apararea onoarei si demnitatii, reputatie profesionale",
+    "unknownField2" : "4",
+    "court" : ""
+  },
+  {
+    "docUrl" : "get_decision_doc.php?decision_key=5EDE5112-5676-E511-8A1B-005056A5D154&case_title=Dosar-02-2r-14620-24072015-2\" target=\"_blank\">PDF_doc<\/a>",
+    "date" : "25-10-2015",
+    "docNr" : "02-2r-14690-27072015",
+    "docName" : "Catana Vasile Nicolae vs Inpectoratul National de Patrulare",
+    "docType" : "Civil",
+    "docSubject" : "Contestarea actelor executorului judec\u0103toresc",
+    "unknownField2" : "4",
+    "court" : ""
+  }
+
+]
+
+
+

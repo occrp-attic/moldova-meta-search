@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($log) {
+  function MainController($log, $http) {
     var vm = this;
 
     vm.results = [];
@@ -16,9 +16,9 @@
     vm.search = search;
 
     function search() {
-      console.log(vm.keyword);
-
-      vm.results = [1,2,3];
+      $http.get('data/data.json').success(function(data) {
+        vm.results = data;
+      });
     }
 
   }

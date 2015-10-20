@@ -20,7 +20,15 @@
     <div class="container">
         <div class="panel panel-default" ng-repeat="result in main.results">
             <div class="panel-body">
-                {{result}}
+                <ul class="list-group">
+                    <li class="list-group-item"><a ng-href="{{result.docUrl}}">{{result.docName}}</a></li>
+                    <li class="list-group-item">Date:             {{result.date}}</li>
+                    <li class="list-group-item">Document number:  {{result.docNr}}</li>
+                    <li class="list-group-item">Document name:    {{result.docName}}</li>
+                    <li class="list-group-item">Document type:    {{result.docType}}</li>
+                    <li class="list-group-item">Document subject: {{result.docSubject}}</li>
+                    <li class="list-group-item">Field:            {{result.unknownField2}}</li>
+                </ul>
             </div>
         </div>
     </div>
