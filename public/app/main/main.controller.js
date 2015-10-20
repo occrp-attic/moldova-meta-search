@@ -11,13 +11,15 @@
 
     vm.results = [];
     vm.keyword = '';
-
+    vm.loading = false;
 
     vm.search = search;
 
     function search() {
-      $http.get('data/data.json').success(function(data) {
+      vm.loading = true;
+      $http.get('api/v1/courts/search/' + vm.keyword).success(function(data) {
         vm.results = data;
+        vm.loading = false;
       });
     }
 

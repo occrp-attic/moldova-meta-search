@@ -15,6 +15,7 @@ type CourtItem struct {
 	Title   string `json:"title"`
 	Type    string `json:"type"`
 	Subject string `json:"subject"`
+	Number  string `json:"number"`
 }
 
 // APIResponse Model
