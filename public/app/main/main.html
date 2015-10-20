@@ -16,18 +16,25 @@
 </div>
 
 
-<div class="search-results">
+<div class="search-results" ng-show="main.results.length">
     <div class="container">
-        <div class="panel panel-default" ng-repeat="result in main.results">
+        <div class="form-inline">
+            <div class="form-group">
+                <input ng-model="main_input" required="required" name="keyword" type="text" class="form-control" placeholder="Filter" />
+            </div>
+        </div>
+        <br />
+
+        <div class="panel panel-default" ng-repeat="result in main.results | filter:main_input">
             <div class="panel-body">
-                <ul class="list-group">
-                    <li class="list-group-item"><a ng-href="{{result.docUrl}}">{{result.docName}}</a></li>
-                    <li class="list-group-item">Date:             {{result.date}}</li>
-                    <li class="list-group-item">Document number:  {{result.docNr}}</li>
-                    <li class="list-group-item">Document name:    {{result.docName}}</li>
-                    <li class="list-group-item">Document type:    {{result.docType}}</li>
-                    <li class="list-group-item">Document subject: {{result.docSubject}}</li>
-                    <li class="list-group-item">Field:            {{result.unknownField2}}</li>
+                <ul class="list-unstyled">
+                    <li><a ng-href="{{result.docUrl}}">{{result.docName}}</a></li>
+                    <li><strong>Date:</strong> {{result.date}}</li>
+                    <li><strong>Document number:</strong> {{result.docNr}}</li>
+                    <li><strong>Document name:</strong> {{result.docName}}</li>
+                    <li><strong>Document type:</strong> {{result.docType}}</li>
+                    <li><strong>Document subject:</strong> {{result.docSubject}}</li>
+                    <li><strong>Field:</strong> {{result.unknownField2}}</li>
                 </ul>
             </div>
         </div>
