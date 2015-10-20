@@ -5,6 +5,8 @@ const (
 	URL = "http://instante.justice.md/apps/hotariri_judecata/inst/%COURT_SLUG%/db_hot_grid.php"
 	// RowsCount - Count of rows to be queried
 	RowsCount = "100"
+	// FilterString - Filters JSON
+	FilterString = `{"groupOp":"AND","rules":[{"field":"denumire_dosar","op":"cn","data":"%SEARCH_TERM%"}]}`
 )
 
 // CourtSlugs
