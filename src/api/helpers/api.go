@@ -37,11 +37,13 @@ func MakeAPICall(apiURL string, searchTerm string, courtName string) ([]CourtIte
 	defer response.Body.Close()
 	if contents, err := ioutil.ReadAll(response.Body); err == nil {
 		if err := json.Unmarshal(contents, &apiResponse); err != nil {
-			errors := map[string]interface{}{
-				"errors": []string{err.Error()},
-			}
-			// If there was an error return error, that will be returned later
-			return data, 400, errors
+			fmt.Printf("%s", err.Error())
+			return data, 200, nil
+			// errors := map[string]interface{}{
+			// 	"errors": []string{err.Error()},
+			// }
+			// // If there was an error return error, that will be returned later
+			// return data, 400, errors
 		}
 		data = processData(apiResponse, courtName)
 		return data, 200, nil
@@ -55,7 +57,8 @@ func processData(data APIResponse, court string) []CourtItem {
 		result := CourtItem{}
 		result.Court = court
 		result.Date = value.Cell[1]
-		// result.PdfURL = value.Cell[0]
+		// TODO: Add court page + pdf url
+		result.PdfURL = value.Cell[0]
 		result.Subject = value.Cell[5]
 		result.Title = value.Cell[3]
 		result.Type = value.Cell[4]

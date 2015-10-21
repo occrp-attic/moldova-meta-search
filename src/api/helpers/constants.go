@@ -26,7 +26,7 @@ var CourtSlugs = map[string]string{
 	"jbr": "Judecătoria Briceni",
 	"jbu": "Judecătoria Buiucani",
 	"jch": "Judecătoria Cahul",
-	// "jc": "Judecătoria Calarasi",
+	"jc":  "Judecătoria Calarasi",
 
 	"jct": "Judecătoria Cantemir",
 	"jca": "Judecătoria Causeni",
@@ -51,7 +51,7 @@ var CourtSlugs = map[string]string{
 	"jor": "Judecătoria Orhei",
 	"jrz": "Judecătoria Rezina/Ribnita",
 	"jrc": "Judecătoria Riscani Chisinău",
-	// "jrs":  "Judecătoria Riscani",
+	"jrs": "Judecătoria Riscani",
 	"jsi": "Judecătoria Singerei",
 	"jsd": "Judecătoria Soldanesti",
 	"jsr": "Judecătoria Soroca",
