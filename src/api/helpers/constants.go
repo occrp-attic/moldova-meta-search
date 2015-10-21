@@ -4,7 +4,7 @@ const (
 	// URL - Base courts api url
 	URL = "http://instante.justice.md/apps/hotariri_judecata/inst/%COURT_SLUG%/db_hot_grid.php"
 	// RowsCount - Count of rows to be queried
-	RowsCount = "20"
+	RowsCount = "10"
 	// FilterString - Filters JSON
 	FilterString = `{"groupOp":"AND","rules":[{"field":"denumire_dosar","op":"cn","data":"%SEARCH_TERM%"}]}`
 )
@@ -26,7 +26,7 @@ var CourtSlugs = map[string]string{
 	"jbr": "Judecătoria Briceni",
 	"jbu": "Judecătoria Buiucani",
 	"jch": "Judecătoria Cahul",
-	// "jc": "Judecătoria Calarasi",
+	"jc":  "Judecătoria Calarasi",
 
 	"jct": "Judecătoria Cantemir",
 	"jca": "Judecătoria Causeni",
@@ -51,7 +51,7 @@ var CourtSlugs = map[string]string{
 	"jor": "Judecătoria Orhei",
 	"jrz": "Judecătoria Rezina/Ribnita",
 	"jrc": "Judecătoria Riscani Chisinău",
-	// "jrs":  "Judecătoria Riscani",
+	"jrs": "Judecătoria Riscani",
 	"jsi": "Judecătoria Singerei",
 	"jsd": "Judecătoria Soldanesti",
 	"jsr": "Judecătoria Soroca",

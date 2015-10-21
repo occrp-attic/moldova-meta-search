@@ -64,8 +64,12 @@
             </div>
         </div>
 
-        <div class="row" ng-show="!main.results.length || main.loading">
+        <div class="row" ng-show="!main.results.length && !main.loading">
             <div class="alert alert-default">There are no results to be displayed.</div>
+        </div>
+
+        <div class="loader" ng-show="main.loading">
+            Loading ...
         </div>
     </div>
 </div>
