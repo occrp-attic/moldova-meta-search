@@ -30,9 +30,9 @@
 
 <div class="search-results" >
     <div class="container">
-        <div class="row" ng-show="main.results.length && !main.loading">
+        <div class="row" >
             <div class="col-md-8">
-                <div class="panel panel-default" dir-paginate="result in main.results | filter:main_input | itemsPerPage: 5">
+                <div class="panel panel-default" ng-show="main.results.length && !main.loading" dir-paginate="result in main.results | filter:main_input | itemsPerPage: 5 | filter: ">
                     <div class="panel-body">
                         <ul class="list-unstyled">
                             <li><a class="pdf-link" ng-href="{{result.pdfURL}}" ng-bind-html="result.title"></a></li>
@@ -43,6 +43,13 @@
                             <li><strong>Document subject:</strong> {{result.subject}}</li>
                         </ul>
                     </div>
+                </div>
+                <div class="row" ng-show="!main.results.length && !main.loading">
+                    <div class="alert alert-default">There are no results to be displayed.</div>
+                </div>
+
+                <div class="loader" ng-show="main.loading">
+                    Loading ...
                 </div>
                 <dir-pagination-controls></dir-pagination-controls>
             </div>
@@ -55,21 +62,28 @@
                 </div>
 
                 <br />
+                <div>
+                    <div class="panel panel-default ">
+                        <div class="panel-body" ng-click="isCollapsed = !isCollapsed">
+                            Advanced Filter
+                        </div>
+                    </div>
+                    <hr>
+                    <div ng-show="isCollapsed">
+                            <div class="well well-lg">Type
 
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        Advanced Filter
+                            <div class="panel-body">
+                                <ul class="list-unstyled">
+                                    <li ng-repeat="(type, count) in main.types"> 
+                                    <input type="checkbox" ng-click=""/> {{ type }} : {{ count }}</li>
+                                </ul>
+                            </div>
+                            </div>
+                        <div class="well well-lg">Date</div>
+                        <div class="well well-lg">Courts</div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row" ng-show="!main.results.length && !main.loading">
-            <div class="alert alert-default">There are no results to be displayed.</div>
-        </div>
-
-        <div class="loader" ng-show="main.loading">
-            Loading ...
         </div>
     </div>
 </div>
