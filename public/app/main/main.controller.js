@@ -42,6 +42,6 @@
         vm.loading = false;
       });
     }
-
   }
+
 })();
