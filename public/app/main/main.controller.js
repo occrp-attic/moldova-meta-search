@@ -18,7 +18,8 @@
 
     function search() {
       vm.loading = true;
-      $http.get('api/v1/courts/search/' + vm.keyword).success(function(data) {
+      $http.get('data/data.json').success(function(data) {
+      //$http.get('api/v1/courts/search/' + vm.keyword).success(function(data) {
         var courts = {};
         var types = {};
 
@@ -36,12 +37,12 @@
         }
         vm.courts = courts;
         vm.types = types;
-        console.log(types);
-        console.log(courts);
+        $log.log(types);
+        $log.log(courts);
         vm.results = data;
         vm.loading = false;
       });
     }
-    
+
   }
 })();

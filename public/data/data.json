@@ -1,56 +1,3251 @@
 [
-  {
-    "docUrl" : "http://instante.justice.md/apps/hotariri_judecata/inst/cac/get_decision_doc.php?decision_key=A5FF4186-2876-E511-8A1B-005056A5D154&case_title=Dosar-02-1a-11822-16062015-1",
-    "date" : "21-10-2013",
-    "docNr" : "02-1a-11822-16062015",
-    "docName" : "Guțu Nicolae Ion",
-    "docType" : "Penal",
-    "docSubject" : "Violarea de domiciliu (art. 179)",
-    "unknownField2" : "1",
-    "court" : ""
-  },
-  {
-    "docUrl" : "get_decision_doc.php?decision_key=5EDE5112-5676-E511-8A1B-005056A5D154&case_title=Dosar-02-2r-14620-24072015-2\" target=\"_blank\">PDF_doc<\/a>",
-    "date" : "19-10-2015",
-    "docNr" : "02-2r-14620-24072015",
-    "docName" : "IM Agrino Investments SRL vs SA Moldconinvest",
-    "docType" : "Civil",
-    "docSubject" : "Ac\u021biuni privind \u00eencasarea prejudiciului moral",
-    "unknownField2" : "2",
-    "court" : ""
-  },
-  {
-    "docUrl" : "get_decision_doc.php?decision_key=5EDE5112-5676-E511-8A1B-005056A5D154&case_title=Dosar-02-2r-14620-24072015-2\" target=\"_blank\">PDF_doc<\/a>",
-    "date" : "19-10-2015",
-    "docNr" : "02-2r-14690-27072015",
-    "docName" : "SRL Luxcar vs Cadin Vasili Vasili",
-    "docType" : "Civil",
-    "docSubject" : "Ac\u021biuni privind \u00eencasarea prejudiciului material, datoriei, sumei",
-    "unknownField2" : "3",
-    "court" : ""
-  },
-  {
-    "docUrl" : "get_decision_doc.php?decision_key=5EDE5112-5676-E511-8A1B-005056A5D154&case_title=Dosar-02-2r-14620-24072015-2\" target=\"_blank\">PDF_doc<\/a>",
-    "date" : "23-10-2015",
-    "docNr" : "02-2r-14690-27072015",
-    "docName" : "Andritchi Eugenia vs Crismaru Svetlana",
-    "docType" : "Civil",
-    "docSubject" : "Litigii privind apararea onoarei si demnitatii, reputatie profesionale",
-    "unknownField2" : "4",
-    "court" : ""
-  },
-  {
-    "docUrl" : "get_decision_doc.php?decision_key=5EDE5112-5676-E511-8A1B-005056A5D154&case_title=Dosar-02-2r-14620-24072015-2\" target=\"_blank\">PDF_doc<\/a>",
-    "date" : "25-10-2015",
-    "docNr" : "02-2r-14690-27072015",
-    "docName" : "Catana Vasile Nicolae vs Inpectoratul National de Patrulare",
-    "docType" : "Civil",
-    "docSubject" : "Contestarea actelor executorului judec\u0103toresc",
-    "unknownField2" : "4",
-    "court" : ""
-  }
-
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DCBD12D0-3667-E511-A983-005056A5FB1A\u0026case_title=Dosar-51-4-2045-17072015-166\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-09-2015",
+        "court": "Judecătoria Ungheni",
+        "title": "Corini Dorin Constantin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 233. Conducerea vehiculului în stare de ebrietate produsa de alcool, predarea conducerii lui catre o persoana care se afla în stare de ebrietate produsa de alcool sau de alte substante ",
+        "number": "51-4-2045-17072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1D0203D8-F531-E511-A983-005056A5FB1A\u0026case_title=Dosar-51-2-1478-29052015-570\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-06-2015",
+        "court": "Judecătoria Ungheni",
+        "title": "Popovici Veaceslav vs Pîslari Dorin Nicolae",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului material, datoriei, sumei",
+        "number": "51-2-1478-29052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1336CF4A-1A1F-E511-A983-005056A5FB1A\u0026case_title=Dosar-51-2-1478-29052015-571\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-06-2015",
+        "court": "Judecătoria Ungheni",
+        "title": "Popovici Veaceslav vs Pîslari Dorin Nicolae",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului material, datoriei, sumei",
+        "number": "51-2-1478-29052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DA57C7FC-8F0A-E511-A983-005056A5FB1A\u0026case_title=Dosar-51-25-1292-08052015-764\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "04-06-2015",
+        "court": "Judecătoria Ungheni",
+        "title": "Ex.jud.A.Ursu vs Arhiri Dorina",
+        "type": "Civil",
+        "subject": "Căutarea şi aducerea forţată a debitorului",
+        "number": "51-25-1292-08052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1E3CA1CA-28F2-E411-A983-005056A5FB1A\u0026case_title=Dosar-51-2-742-12032015-1313\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-04-2015",
+        "court": "Judecătoria Ungheni",
+        "title": "Popovici Veaceslav vs Pîslari Dorin",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului material, datoriei, sumei",
+        "number": "51-2-742-12032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=EF0DF129-38B8-E411-A92E-005056A5FB1A\u0026case_title=Dosar-51-2-3495-15122014-1533\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "19-02-2015",
+        "court": "Judecătoria Ungheni",
+        "title": "Uzdriș Dorina vs Furcoi Gabriel- Mihai",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "51-2-3495-15122014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=926C0A12-1326-E511-A983-005056A5FB1A\u0026case_title=Dosar-51-2-3495-15122014-1534\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-07-2015",
+        "court": "Judecătoria Ungheni",
+        "title": "Uzdriș Dorina vs Furcoi Gabriel- Mihai",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "51-2-3495-15122014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9B71289F-7D95-E411-A92E-005056A5FB1A\u0026case_title=Dosar-51-1-3442-11122014-1944\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-01-2015",
+        "court": "Judecătoria Ungheni",
+        "title": "Pîslari Dorin Nicolai",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "51-1-3442-11122014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=BA5D9E79-EB59-E411-8956-005056A5FB1A\u0026case_title=Dosar-51-2p/o-2950-21102014-2558\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-10-2014",
+        "court": "Judecătoria Ungheni",
+        "title": ",,Moldtelecom,,SA vs Arhirii Dorina",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "51-2p/o-2950-21102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=BDF7DCB5-B30D-E411-8956-005056A5FB1A\u0026case_title=Dosar-51-2-1588-06062014-3133\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-07-2014",
+        "court": "Judecătoria Ungheni",
+        "title": "Furcoi Dorina vs Furcoi Gabriel",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "51-2-1588-06062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=16435F24-4D1E-E511-A983-005056A5FB1A\u0026case_title=Dosar-15-2-3728-27102014-646\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-06-2015",
+        "court": "Judecătoria Cahul",
+        "title": "Solcan Olesea Vasile vs Solcan Dorina Matei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "15-2-3728-27102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=54B1549D-D5FA-E411-A983-005056A5FB1A\u0026case_title=Dosar-15-1-2408-24072014-1014\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "15-05-2015",
+        "court": "Judecătoria Cahul",
+        "title": "Dorin Igor Ștefan",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "15-1-2408-24072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A2FBED7E-F1DD-E411-A983-005056A5FB1A\u0026case_title=Dosar-15-1-41-13012015-1327\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Cahul",
+        "title": "Arnautov Dorin Ion",
+        "type": "Penal",
+        "subject": "Incalcarea regulilor de securitate a circulatiei sau de exploatare a mijloacelor de transport de catre persoana care conduce mijlocul de transport (art. 264)",
+        "number": "15-1-41-13012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0A323AD5-14A9-E411-A92E-005056A5FB1A\u0026case_title=Dosar-15-2-3300-29092014-2120\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "21-01-2015",
+        "court": "Judecătoria Cahul",
+        "title": "Dorin  Krejincky Lilia vs IFS Cahul",
+        "type": "Civil",
+        "subject": "Dosare de gestiune speciala privind constatarea unor fapte care au valoare juridica",
+        "number": "15-2-3300-29092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=74E66100-D185-E411-A92E-005056A5FB1A\u0026case_title=Dosar-15-1-3340-02102014-2414\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Cahul",
+        "title": "Bolocan Dorin Gheorghe",
+        "type": "Penal",
+        "subject": "Circulatia ilegala a substantelor narcotice, psihotrope sau a analoagelor lor fara scop de înstrainare (art. 217)",
+        "number": "15-1-3340-02102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=FA7A3938-E785-E411-A92E-005056A5FB1A\u0026case_title=Dosar-15-2-1703-27052014-2510\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Cahul",
+        "title": "Rodnițchi Dorina Constantin vs Rodnițchi Vitalie Mihail",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "15-2-1703-27052014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3FEBA36A-3581-E411-A92E-005056A5FB1A\u0026case_title=Dosar-15-1-1064-02052012-2575\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Cahul",
+        "title": "Spînu Dorin Gheorghe",
+        "type": "Penal",
+        "subject": "Jaful (art. 187)",
+        "number": "15-1-1064-02052012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=928193E9-3481-E411-A92E-005056A5FB1A\u0026case_title=Dosar-15-1-1064-02052012-2576\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Cahul",
+        "title": "Spînu Dorin Gheorghe",
+        "type": "Penal",
+        "subject": "Jaful (art. 187)",
+        "number": "15-1-1064-02052012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DC9FDFC3-7B12-E411-8956-005056A5FB1A\u0026case_title=Dosar-15-2-1657-22052014-3539\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-07-2014",
+        "court": "Judecătoria Cahul",
+        "title": "Danalachi Maria vs Vișan Dorin Dmitri",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului material, datoriei, sumei",
+        "number": "15-2-1657-22052014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C5D47BFE-7E27-E411-8956-005056A5FB1A\u0026case_title=Dosar-15-1-693-05032014-3589\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Cahul",
+        "title": "Dragomir Dorin Nicolai",
+        "type": "Penal",
+        "subject": "Incalcarea regulilor de securitate a circulatiei sau de exploatare a mijloacelor de transport de catre persoana care conduce mijlocul de transport (art. 264)",
+        "number": "15-1-693-05032014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A20F277E-59B3-E411-8112-005056A5D154\u0026case_title=Dosar-29-1-1-05012015-730\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-02-2015",
+        "court": "Judecătoria Falesti",
+        "title": "Rădeanu Dorin Grigore în baza art. 264 alin. 1 CP",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "29-1-1-05012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=366C2434-0640-E411-8E3E-005056A5D154\u0026case_title=Dosar-29-1-1293-02092014-1422\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "19-09-2014",
+        "court": "Judecătoria Falesti",
+        "title": "Paladi Dorin Anatoli în baza art.264/1 al.1 CP",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "29-1-1293-02092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D332D29C-0982-E411-8112-005056A5D154\u0026case_title=Dosar-29-2-1685-21112013-1523\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-12-2014",
+        "court": "Judecătoria Falesti",
+        "title": "Velenciuc Aliona vs Velenciuc Dorin de incasarea pensiei de întreținere pentru un copiilor comuni într-o sumă bănească fixă",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "29-2-1685-21112013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=373087EA-8799-E411-8112-005056A5D154\u0026case_title=Dosar-29-2-1685-21112013-1524\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-12-2014",
+        "court": "Judecătoria Falesti",
+        "title": "Velenciuc Aliona vs Velenciuc Dorin de incasarea pensiei de întreținere pentru un copiilor comuni într-o sumă bănească fixă",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "29-2-1685-21112013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E2205F25-6848-E411-8E3E-005056A5D154\u0026case_title=Dosar-29-1-950-01072014-1690\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-09-2014",
+        "court": "Judecătoria Falesti",
+        "title": "Axenti Dorin Vasile în baza art.264/1 alin.1  ",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "29-1-950-01072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F2715BF4-33D0-E311-9DF1-005056A5D154\u0026case_title=Dosar-29-2-310-04032014-2038\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-04-2014",
+        "court": "Judecătoria Falesti",
+        "title": "Gherman Maria vs Gherman Dorin de desfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "29-2-310-04032014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9113A715-3C3D-E311-AD4B-005056A5D154\u0026case_title=Dosar-29-2-856-11062013-2753\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "25-10-2013",
+        "court": "Judecătoria Falesti",
+        "title": "Codrean Dorina Valentin vs Codrean Gheorghe Gheorghe de desfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "29-2-856-11062013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B140BD45-301A-E311-8579-005056A5D154\u0026case_title=Dosar-29-2-716-15052013-2867\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "04-09-2013",
+        "court": "Judecătoria Falesti",
+        "title": "Velenciuc Aliona Nicolai vs Veenciuc Dorin Victor de desfacerea căsătoriei şi stabilirea domiciliului copilului minor",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "29-2-716-15052013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=51BF06F3-9B2A-E311-AD4B-005056A5D154\u0026case_title=Dosar-29-3-450-11032013-3049\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "01-10-2013",
+        "court": "Judecătoria Falesti",
+        "title": "Czacu Dorin în interesul SC Magic Land SRL ş.a. vs Consiliul orăşănesc Făleşti de anularea parţială a deciziei",
+        "type": "Civil",
+        "subject": "Dosare examinate conform Legii contenciosului administrativ ",
+        "number": "29-3-450-11032013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F57A4D1D-E2DC-E211-9393-005056A5D154\u0026case_title=Dosar-29-2-535-26032013-3194\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "31-05-2013",
+        "court": "Judecătoria Falesti",
+        "title": "Cotogoi Vladimir vs Russu Dorin de rezilierea contractului de vînzare cumpărare",
+        "type": "Civil",
+        "subject": "Actiuni aparute din contractele de vînzare-cumparare",
+        "number": "29-2-535-26032013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=02219DD5-5121-E511-A983-005056A5FB1A\u0026case_title=Dosar-31-1-773-29052015-270\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-07-2015",
+        "court": "Judecătoria Glodeni",
+        "title": "Bejereanu Dorin Anatoli",
+        "type": "Penal",
+        "subject": "Incalcarea regulilor de securitate a circulatiei sau de exploatare a mijloacelor de transport de catre persoana care conduce mijlocul de transport (art. 264)",
+        "number": "31-1-773-29052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=852C588B-64DF-E411-A983-005056A5FB1A\u0026case_title=Dosar-31-2-259-19022015-521\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-04-2015",
+        "court": "Judecătoria Glodeni",
+        "title": "Gurușciuc Dorin vs Gurușciuc Cornelia",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "31-2-259-19022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F6B2BC00-96BD-E411-A92E-005056A5FB1A\u0026case_title=Dosar-31-2-103-26012015-636\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-02-2015",
+        "court": "Judecătoria Glodeni",
+        "title": "Vîntu Cristina vs Cebotari Dorin",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "31-2-103-26012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F8E937CA-62BB-E411-A92E-005056A5FB1A\u0026case_title=Dosar-31-2-164-04022015-648\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-02-2015",
+        "court": "Judecătoria Glodeni",
+        "title": "Palamarciuc Dorina Victor vs Palamarciuc Gheorghe Vasile",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "31-2-164-04022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=855E2C89-76F7-E311-8956-005056A5FB1A\u0026case_title=Dosar-31-4-812-03062014-1287\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "19-06-2014",
+        "court": "Judecătoria Glodeni",
+        "title": "IM Viitorul Ustiei-repr.Tascu Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 294[1]. Încălcarea normelor de calculare şi de plată a contribuţiilor de asigurări sociale de stat obligatorii",
+        "number": "31-4-812-03062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=11C770BE-9835-E311-9668-005056A5FB1A\u0026case_title=Dosar-31-2-1289-24092013-1999\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "15-10-2013",
+        "court": "Judecătoria Glodeni",
+        "title": "Leviţki Valentin Cazemir vs Babii Dorin Petru",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "31-2-1289-24092013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E75359FB-BD29-E311-9668-005056A5FB1A\u0026case_title=Dosar-31-1-1238-13092013-2067\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-09-2013",
+        "court": "Judecătoria Glodeni",
+        "title": "Rotari Dorin Gheorghe",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "31-1-1238-13092013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=CF660B22-4E70-E211-9E0E-00215AE0B441\u0026case_title=Dosar-31-2p/o-118-28012013-2835\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "04-02-2013",
+        "court": "Judecătoria Glodeni",
+        "title": "CNAM Bălţi vs Zmeu Dorina Simion",
+        "type": "Civil",
+        "subject": "Dosare examinate în procedura în ordonanta ",
+        "number": "31-2p/o-118-28012013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C5AE1E06-3861-E111-BB89-00215AE0B441\u0026case_title=Dosar-31-2-161-13022012-4025\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-02-2012",
+        "court": "Judecătoria Glodeni",
+        "title": "\tPalamarciuc Dorina Victor  ",
+        "type": "Civil",
+        "subject": "Dosare de gestiune speciala privind constatarea unor fapte care au valoare juridica",
+        "number": "31-2-161-13022012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=FD668549-6972-E111-A944-00215AE0B441\u0026case_title=Dosar-31-2-220-28022011-4275\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-12-2011",
+        "court": "Judecătoria Glodeni",
+        "title": "Pâţu Dorin vs Pâţu Viorica",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "31-2-220-28022011"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=2E2560BF-C548-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-4-9808-16062015-969\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-08-2015",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "JT International Luxemburg SA Administratorul Pavaloi Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 55[1]. Utilizarea muncii nedeclarate",
+        "number": "41-4-9808-16062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=EA717129-DC39-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-4-7086-05052015-1051\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "01-08-2015",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "Chirtoacă Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 318. Neexecutarea hotarîrii instantei de judecata ",
+        "number": "41-4-7086-05052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=8407D5C2-1132-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-3-16845-28102014-1184\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "SC Dorinta SA vs ÎS Cadastru",
+        "type": "Civil",
+        "subject": "Acţiuni privind controlul legalităţii actelor administrative ale\nÎS Cadastru",
+        "number": "41-3-16845-28102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=881440D3-A13A-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-4-8474-26052015-1537\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-07-2015",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "Efros Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 200. Încalcarea regulilor traficului de încarcaturi periculoase, de mare gabarit sau supragrele ",
+        "number": "41-4-8474-26052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DB2B3FC8-6421-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-4-8474-26052015-1538\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-07-2015",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "Efros Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 200. Încalcarea regulilor traficului de încarcaturi periculoase, de mare gabarit sau supragrele ",
+        "number": "41-4-8474-26052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E0FCE174-CE20-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-4-9733-15062015-1553\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-07-2015",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "Spunei Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 200. Încalcarea regulilor traficului de încarcaturi periculoase, de mare gabarit sau supragrele ",
+        "number": "41-4-9733-15062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=16D37BF0-A82F-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-4-9733-15062015-1554\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-07-2015",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "Spunei Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 200. Încalcarea regulilor traficului de încarcaturi periculoase, de mare gabarit sau supragrele ",
+        "number": "41-4-9733-15062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=CF6CEA5C-4F16-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-4-17630-10112014-1875\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "Chirtoacă Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 318. Neexecutarea hotarîrii instantei de judecata ",
+        "number": "41-4-17630-10112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=8CAF9C22-830F-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-2-11974-08082014-2058\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-06-2015",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "Diaconu-Voinițchi Dorina vs CIA Asito SA",
+        "type": "Civil",
+        "subject": "Actiuni aparute din contractele de asigurare",
+        "number": "41-2-11974-08082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=94233D9A-0836-E511-A983-005056A5FB1A\u0026case_title=Dosar-41-2-11974-08082014-2059\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-06-2015",
+        "court": "Judecătoria Riscani Chisinău",
+        "title": "Diaconu-Voinițchi Dorina vs CIA Asito SA",
+        "type": "Civil",
+        "subject": "Actiuni aparute din contractele de asigurare",
+        "number": "41-2-11974-08082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9A52C2FD-6B6B-E511-8A1B-005056A5D154\u0026case_title=Dosar-45-2e-72-19012015-69\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "04-09-2015",
+        "court": "Judecătoria Soldanesti",
+        "title": "Tudorinex S.R.L. vs GȚ Donțov Serghei Alexandru",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "45-2e-72-19012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4D442A57-F97A-E411-8112-005056A5D154\u0026case_title=Dosar-45-1-1235-12082014-1224\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-12-2014",
+        "court": "Judecătoria Soldanesti",
+        "title": "Grăjdean Dorin Andrei - art.186 alin.2 lit.b,c,d CP",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "45-1-1235-12082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=42DB64F2-6927-E411-8E3E-005056A5D154\u0026case_title=Dosar-45-2-1148-24072014-1393\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "19-08-2014",
+        "court": "Judecătoria Soldanesti",
+        "title": "Buruian Dorina - prelungirea termenului de acceptare a succesiunii",
+        "type": "Civil",
+        "subject": "Alte dosare de gestiune speciala",
+        "number": "45-2-1148-24072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=84F97CF8-BFA2-E311-9DF1-005056A5D154\u0026case_title=Dosar-45-2-1168-23122013-2051\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-03-2014",
+        "court": "Judecătoria Soldanesti",
+        "title": "Corjan Iurie vs Răzuș  Dorin ",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "45-2-1168-23122013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=81B4FCEC-C658-E311-AD4B-005056A5D154\u0026case_title=Dosar-45-2-675-12082013-2373\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-11-2013",
+        "court": "Judecătoria Soldanesti",
+        "title": "ÎCS Express Leasing SRL vs Răzuş  Dorin ",
+        "type": "Civil",
+        "subject": "Litigii aparute din contracte si operatiuni bancare",
+        "number": "45-2-675-12082013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=43BC72E2-3A48-E311-AD4B-005056A5D154\u0026case_title=Dosar-45-2-983-01112013-2460\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-11-2013",
+        "court": "Judecătoria Soldanesti",
+        "title": "ATO a CN de Asigurări în Medicină vs Railean Dorin",
+        "type": "Civil",
+        "subject": "Alte materiale",
+        "number": "45-2-983-01112013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=31A7DB97-9360-E211-956D-00215AE0E425\u0026case_title=Dosar-45-2-4-02012013-3339\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "09-01-2013",
+        "court": "Judecătoria Soldanesti",
+        "title": "ÎCS Easy Credit SRL vs Railean  Dorina",
+        "type": "Civil",
+        "subject": "Materiale care rezulta dintr-un act juridic încheiat printr-un înscris simplu, iar legea nu dispune altfel",
+        "number": "45-2-4-02012013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D8F51885-B835-E011-B395-00215AE0E425\u0026case_title=Dosar-45-2-99-15112010-5591\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-01-2011",
+        "court": "Judecătoria Soldanesti",
+        "title": "Ciorici Dorin vs Robu Gheorghe Ion",
+        "type": "Civil",
+        "subject": "Actiuni aparute din contractele de vînzare-cumparare",
+        "number": "45-2-99-15112010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=539C6F6B-B566-E511-8A1B-005056A5D154\u0026case_title=Dosar-25-1-721-16062015-76\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-09-2015",
+        "court": "Judecătoria Donduseni",
+        "title": "Postovan Dorin Ion art.264 al4CPRM",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "25-1-721-16062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4743284E-EA09-E511-B888-005056A5D154\u0026case_title=Dosar-25-2-378-26032015-528\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-06-2015",
+        "court": "Judecătoria Donduseni",
+        "title": "Znagovan Alina vs Coroian Dorin incasarea pensiei alimentare",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "25-2-378-26032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=ED9CFB14-AEAA-E411-8112-005056A5D154\u0026case_title=Dosar-25-1-1333-26112014-886\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-02-2015",
+        "court": "Judecătoria Donduseni",
+        "title": "Covali Dorin Marian art. 264/1 alin.4 CP RM",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "25-1-1333-26112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5BA56B29-E673-E411-8E3E-005056A5D154\u0026case_title=Dosar-25-2-1131-02102014-1031\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-11-2014",
+        "court": "Judecătoria Donduseni",
+        "title": "Malencaia Angela Petru vs Bodorin Andrian stabilirea cu cine din parinti ramine copilul",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "25-2-1131-02102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=31EDF57F-0F38-E411-8E3E-005056A5D154\u0026case_title=Dosar-25-2-928-12082014-1141\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "09-09-2014",
+        "court": "Judecătoria Donduseni",
+        "title": "Sajin Ludmila Mihail vs Sajin Dorin Gheorghe desfacerea casatoriei, incasarea pensiei alimentare",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "25-2-928-12082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A98D2FCC-D8EF-E311-8E3E-005056A5D154\u0026case_title=Dosar-25-4-455-16042014-1412\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-06-2014",
+        "court": "Judecătoria Donduseni",
+        "title": "Cater Dorin Andrei",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 233. Conducerea vehiculului în stare de ebrietate produsa de alcool, predarea conducerii lui catre o persoana care se afla în stare de ebrietate produsa de alcool sau de alte substante ",
+        "number": "25-4-455-16042014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F49EAF6E-12B0-E311-9DF1-005056A5D154\u0026case_title=Dosar-25-2-11-03012014-1591\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-03-2014",
+        "court": "Judecătoria Donduseni",
+        "title": "Ministerul Apararii vs Coca Dorin Serghei recuperarea cheltuielilor",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "25-2-11-03012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D2DEEE1C-5CA4-E311-9DF1-005056A5D154\u0026case_title=Dosar-25-1-120-28012014-1710\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-02-2014",
+        "court": "Judecătoria Donduseni",
+        "title": "Postovan Dorin Ion art.264/1 alin.1 CPRM",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "25-1-120-28012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7362B964-A95D-E311-AD4B-005056A5D154\u0026case_title=Dosar-25-4-1213-19112013-1924\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-12-2013",
+        "court": "Judecătoria Donduseni",
+        "title": "Cater Dorin Andrei art.243 CCaRM",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 243. Parasirea locului în care s-a produs accidentul rutier ",
+        "number": "25-4-1213-19112013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=678DE192-AF31-E311-AD4B-005056A5D154\u0026case_title=Dosar-25-2-884-08082013-2002\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-10-2013",
+        "court": "Judecătoria Donduseni",
+        "title": "Executorul judecatoresc V.Baltat vs Bodorin Fiodor Fiodorb cautarea debitorului",
+        "type": "Civil",
+        "subject": "Căutarea şi aducerea forţată a debitorului",
+        "number": "25-2-884-08082013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=FBC17C74-3B09-E511-A983-005056A5FB1A\u0026case_title=Dosar-05-2a-520-16042015-391\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-06-2015",
+        "court": "Curtea de Apel Cahul",
+        "title": "CA „Reșetilov Dorin” vs Instituția Medico-Sanitară Publică Centrul Medicilor de Fami",
+        "type": "Civil",
+        "subject": "Acțiuni privind anularea actelor, contractelor",
+        "number": "05-2a-520-16042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C031284B-D9E4-E411-A983-005056A5FB1A\u0026case_title=Dosar-05-1a-182-13022015-814\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Curtea de Apel Cahul",
+        "title": "Spînu Dorin Gheorghe, Znacovean Andrei Petru art. 187 alin. (4), 27, 187 alin. (2) lit. d),f) Cod penal",
+        "type": "Penal",
+        "subject": "Jaful (art. 187)",
+        "number": "05-1a-182-13022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=2393248F-8CD3-E411-A983-005056A5FB1A\u0026case_title=Dosar-05-1a-182-13022015-815\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Curtea de Apel Cahul",
+        "title": "Spînu Dorin Gheorghe, Znacovean Andrei Petru art. 187 alin. (4), 27, 187 alin. (2) lit. d),f) Cod penal",
+        "type": "Penal",
+        "subject": "Jaful (art. 187)",
+        "number": "05-1a-182-13022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=613A2249-BFCF-E411-A983-005056A5FB1A\u0026case_title=Dosar-05-1a-417-10042014-1070\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-02-2015",
+        "court": "Curtea de Apel Cahul",
+        "title": "Bagrin Vlad Vladimir, Nucă Dorin Grigore art. 287 alin. (2) lit. b) CP RM",
+        "type": "Penal",
+        "subject": "Huliganismul (art. 287)",
+        "number": "05-1a-417-10042014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=CC29DD46-DF01-E411-8956-005056A5FB1A\u0026case_title=Dosar-05-2a-1202-17122013-2106\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-06-2014",
+        "court": "Curtea de Apel Cahul",
+        "title": "Batog Dorina Nicolai vs Volcov Dumitru",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "05-2a-1202-17122013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=FECBC6F6-0FF2-E311-8956-005056A5FB1A\u0026case_title=Dosar-05-2a-1202-17122013-2107\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-06-2014",
+        "court": "Curtea de Apel Cahul",
+        "title": "Batog Dorina Nicolai vs Volcov Dumitru",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "05-2a-1202-17122013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=271C88A9-FBEA-E311-8956-005056A5FB1A\u0026case_title=Dosar-05-2a-151-30012014-2139\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-05-2014",
+        "court": "Curtea de Apel Cahul",
+        "title": "Boghean Andrei vs Boghean  Dorina",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "05-2a-151-30012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9FA7560D-E1FA-E311-8956-005056A5FB1A\u0026case_title=Dosar-05-2a-108-24012014-2191\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-05-2014",
+        "court": "Curtea de Apel Cahul",
+        "title": " Ciobu Vladimir Vasile v/s Ciobu Dorina Mihail vs",
+        "type": "Civil",
+        "subject": "Acțiuni privind partajul averii",
+        "number": "05-2a-108-24012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D33BC1AC-A5E4-E311-8956-005056A5FB1A\u0026case_title=Dosar-05-2a-108-24012014-2192\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-05-2014",
+        "court": "Curtea de Apel Cahul",
+        "title": " Ciobu Vladimir Vasile v/s Ciobu Dorina Mihail vs",
+        "type": "Civil",
+        "subject": "Acțiuni privind partajul averii",
+        "number": "05-2a-108-24012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3DA77B6F-B0D5-E311-844C-005056A5FB1A\u0026case_title=Dosar-05-2a-82-23012014-2308\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-05-2014",
+        "court": "Curtea de Apel Cahul",
+        "title": "Rusu Agafia vs Dorin Ion Stelian",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului material, datoriei, sumei",
+        "number": "05-2a-82-23012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D07978CB-593F-E511-B888-005056A5D154\u0026case_title=Dosar-12-1-6258-03082015-576\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-08-2015",
+        "court": "Judecătoria Botanica",
+        "title": "Stoianov Dorin Andrei",
+        "type": "Penal",
+        "subject": "Jaful (art. 187)",
+        "number": "12-1-6258-03082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F9B7CA20-FFFE-E411-B888-005056A5D154\u0026case_title=Dosar-12-2-2900-07042015-1848\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-05-2015",
+        "court": "Judecătoria Botanica",
+        "title": "Colun Dorina vs Colun Fiodor Nicolae",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "12-2-2900-07042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3274ED3D-C9F3-E411-B888-005056A5D154\u0026case_title=Dosar-12-2-8180-13082014-2147\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-04-2015",
+        "court": "Judecătoria Botanica",
+        "title": "AO Protecția Consumatorilor vs Chirtoacă Dorin",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului moral",
+        "number": "12-2-8180-13082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=79E819E8-37C7-E411-B888-005056A5D154\u0026case_title=Dosar-12-1-7919-06082014-3055\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-03-2015",
+        "court": "Judecătoria Botanica",
+        "title": "Popescu Dorina Oleg",
+        "type": "Penal",
+        "subject": "Traficul de fiinte umane (art. 165)",
+        "number": "12-1-7919-06082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B2C40C6A-6571-E411-8E3E-005056A5D154\u0026case_title=Dosar-12-4-11015-24102014-4970\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "21-11-2014",
+        "court": "Judecătoria Botanica",
+        "title": "Chirtoacă Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 318. Neexecutarea hotarîrii instantei de judecata ",
+        "number": "12-4-11015-24102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=CCBEE0F2-126F-E411-8E3E-005056A5D154\u0026case_title=Dosar-12-2c-7435-24072014-5068\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-11-2014",
+        "court": "Judecătoria Botanica",
+        "title": "ÎM Kellers SRL vs SRL Sindorina-MOB",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "12-2c-7435-24072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B4F12957-386F-E411-8E3E-005056A5D154\u0026case_title=Dosar-12-2-10252-07102014-5075\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-11-2014",
+        "court": "Judecătoria Botanica",
+        "title": "ACC 51/252 vs Sindorina Liudmila Leonid",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "12-2-10252-07102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=ECF4DF66-2A6B-E411-8E3E-005056A5D154\u0026case_title=Dosar-12-2-9826-24092014-5158\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-11-2014",
+        "court": "Judecătoria Botanica",
+        "title": "ÎMGFL 3 vs Bolta Dorin",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "12-2-9826-24092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9F72DD1D-376A-E411-8E3E-005056A5D154\u0026case_title=Dosar-12-2-9251-10092014-5195\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-11-2014",
+        "court": "Judecătoria Botanica",
+        "title": "Zalata Oleg Stanislav vs Zlata Dorina Andrei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "12-2-9251-10092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=06084FD0-2C4A-E411-8E3E-005056A5D154\u0026case_title=Dosar-12-2-7333-22072014-5862\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "01-10-2014",
+        "court": "Judecătoria Botanica",
+        "title": "BC  Mobiasbanca-Groupe Societe Generale  SA vs Bodorin Gheorghe Petru",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "12-2-7333-22072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A5CADA76-2255-E511-A983-005056A5FB1A\u0026case_title=Dosar-17-1-1106-04082015-66\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-09-2015",
+        "court": "Judecătoria Cantemir",
+        "title": "Beiu Dorin Nicolai",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "17-1-1106-04082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=FD3C959F-584A-E511-A983-005056A5FB1A\u0026case_title=Dosar-17-4-613-13052015-187\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-07-2015",
+        "court": "Judecătoria Cantemir",
+        "title": "Movilă Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 294. Încălcarea regulilor de prezentare a declaraţiilor privind calcularea şi utilizarea contribuţiilor de asigurări sociale de stat obligatorii şi a regulilor de folosire a codurilor personale de asigurări sociale",
+        "number": "17-4-613-13052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3BCB57D9-7137-E511-A983-005056A5FB1A\u0026case_title=Dosar-17-1-580-06052015-238\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "31-07-2015",
+        "court": "Judecătoria Cantemir",
+        "title": "Beiu Dorin Nicolai",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "17-1-580-06052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4CCE9B2A-B0D6-E411-A983-005056A5FB1A\u0026case_title=Dosar-17-2-57-17012013-639\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-02-2015",
+        "court": "Judecătoria Cantemir",
+        "title": "CA „Reşetilov Dorin” vs Instituţia Medico-Sanitară Publică Centrul Medicilor de Fami",
+        "type": "Civil",
+        "subject": "Actiuni privind controlul legalitatii actelor administrative ale autoritatilor publice din raion, municipiu, unitate teritoriala autonoma cu statut special",
+        "number": "17-2-57-17012013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=86D05AB4-88B3-E411-A92E-005056A5FB1A\u0026case_title=Dosar-17-2-57-17012013-642\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-02-2015",
+        "court": "Judecătoria Cantemir",
+        "title": "CA „Reşetilov Dorin” vs Instituţia Medico-Sanitară Publică Centrul Medicilor de Fami",
+        "type": "Civil",
+        "subject": "Actiuni privind controlul legalitatii actelor administrative ale autoritatilor publice din raion, municipiu, unitate teritoriala autonoma cu statut special",
+        "number": "17-2-57-17012013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=44B68C60-A8FB-E411-A983-005056A5FB1A\u0026case_title=Dosar-17-4-116-26012015-646\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-03-2015",
+        "court": "Judecătoria Cantemir",
+        "title": "Doina Dorin Gheorghe",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 233. Conducerea vehiculului în stare de ebrietate produsa de alcool, predarea conducerii lui catre o persoana care se afla în stare de ebrietate produsa de alcool sau de alte substante ",
+        "number": "17-4-116-26012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DA7B5B75-B4E8-E411-A983-005056A5FB1A\u0026case_title=Dosar-17-2-1610-22102014-756\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Cantemir",
+        "title": "Tofilat Dorina Ion vs Cozma Igor Ion",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "17-2-1610-22102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=61FC9368-D77E-E411-A92E-005056A5FB1A\u0026case_title=Dosar-17-4d-951-16062014-886\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-12-2014",
+        "court": "Judecătoria Cantemir",
+        "title": "Zaharia Dorin Ivan",
+        "type": "Contravenţie administrativă",
+        "subject": "Demersuri privind schimbarea masurii de pedeapsa",
+        "number": "17-4d-951-16062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A2511D38-F17A-E411-A92E-005056A5FB1A\u0026case_title=Dosar-17-4d-951-16062014-1305\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-12-2014",
+        "court": "Judecătoria Cantemir",
+        "title": "Zaharia Dorin Ivan",
+        "type": "Contravenţie administrativă",
+        "subject": "Demersuri privind schimbarea masurii de pedeapsa",
+        "number": "17-4d-951-16062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=CA5401B8-39F2-E311-8956-005056A5FB1A\u0026case_title=Dosar-17-2-1234-21112013-1453\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-06-2014",
+        "court": "Judecătoria Cantemir",
+        "title": "Creangă Mihail Vasile vs Bolocan Dorin Gheoerghe",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "17-2-1234-21112013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C5925A99-BA57-E511-A983-005056A5FB1A\u0026case_title=Dosar-03-1r-3410-02072015-534\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-09-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Suhaci Dorin Iurie",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "03-1r-3410-02072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=8BAD2628-EF2A-E511-A983-005056A5FB1A\u0026case_title=Dosar-03-4r-2373-11052015-1099\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "15-07-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Rusu Dorin Mihail",
+        "type": "Contravenţie administrativă",
+        "subject": "Cauze contravenţionale examinate de organele de specialitate în domeniul transporturilor",
+        "number": "03-4r-2373-11052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=430544DE-DD1B-E511-A983-005056A5FB1A\u0026case_title=Dosar-03-ij_16rj-3221-23062015-1184\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-06-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Dicuseară Dorin Dumitru",
+        "type": "Penal",
+        "subject": "Prelungirea termenului arestului preventiv",
+        "number": "03-ij_16rj-3221-23062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E7CDEFFB-F5FE-E411-A983-005056A5FB1A\u0026case_title=Dosar-03-2r-1676-01042015-1614\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-05-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Demersul Executorului Matachi S. privind anunțarea în căutare a debitorului  Velenciuc Dorin Victor",
+        "type": "Civil",
+        "subject": "Căutarea și aducerea forțată a debitorului",
+        "number": "03-2r-1676-01042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1F5B7D48-2D08-E511-A983-005056A5FB1A\u0026case_title=Dosar-03-2a-211-17012015-1759\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-05-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Velenciuc Aliona vs Velenciuc Dorin privind incasarea pensiei de întreținere a copiilor minori.",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "03-2a-211-17012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=EB649279-2D08-E511-A983-005056A5FB1A\u0026case_title=Dosar-03-2a-211-17012015-1760\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-05-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Velenciuc Aliona vs Velenciuc Dorin privind incasarea pensiei de întreținere a copiilor minori.",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "03-2a-211-17012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=86EF56BD-28F3-E411-A983-005056A5FB1A\u0026case_title=Dosar-03-1r-1835-09042015-1894\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-04-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Cucu Dorin Petru",
+        "type": "Penal",
+        "subject": "Alte infracţiuni",
+        "number": "03-1r-1835-09042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=2DABA9BE-81F1-E411-A983-005056A5FB1A\u0026case_title=Dosar-03-1r-1835-09042015-1895\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-04-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Cucu Dorin Petru",
+        "type": "Penal",
+        "subject": "Alte infracţiuni",
+        "number": "03-1r-1835-09042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0D000E66-E3DD-E411-A983-005056A5FB1A\u0026case_title=Dosar-03-4r-1375-12032015-2248\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-04-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Pădure Dorin Alexandru",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 243. Parasirea locului în care s-a produs accidentul rutier ",
+        "number": "03-4r-1375-12032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=8B556E0C-0ADA-E411-A983-005056A5FB1A\u0026case_title=Dosar-03-1r-1454-17032015-2471\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "25-03-2015",
+        "court": "Curtea de Apel Balti",
+        "title": "Galadiuc Dorin Petru",
+        "type": "Penal",
+        "subject": "Abținerea",
+        "number": "03-1r-1454-17032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=544645F5-3E1D-E411-8956-005056A5FB1A\u0026case_title=Dosar-04-ij_10r-559-21052014-52\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-07-2014",
+        "court": "Curtea de Apel Bender",
+        "title": "Fortuna Dorin Tudor-plângere împotriva ordonanței procurorului",
+        "type": "Penal",
+        "subject": "Plângerile împotriva actiunilor organelor de urmarire penala si a organelor care exercită activitatea operativă de investigaţie",
+        "number": "04-ij_10r-559-21052014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F2592FF5-96DD-E311-844C-005056A5FB1A\u0026case_title=Dosar-04-2a-26-09012014-194\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-04-2014",
+        "court": "Curtea de Apel Bender",
+        "title": "Arutiunova Ala Ghenadie vs Zelenco Dorina Nicolae",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "04-2a-26-09012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A9A7A76A-8D47-E311-9668-005056A5FB1A\u0026case_title=Dosar-04-2ae-434-30042013-645\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-11-2013",
+        "court": "Curtea de Apel Bender",
+        "title": "ÎI ”Ciobanu Dorin” vs IFS or. Anenii Noi ",
+        "type": "Civil",
+        "subject": "Actiuni privind controlul legalitatii actelor administrative ale autoritatilor publice din raion, municipiu, unitate teritoriala autonoma cu statut special",
+        "number": "04-2ae-434-30042013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E213F340-555A-E211-878C-00215AE0E433\u0026case_title=Dosar-04-2a-230-21022012-1318\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Curtea de Apel Bender",
+        "title": "Arutinova Ala vs Zelenco Dorina",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "04-2a-230-21022012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=54098F6A-5FF9-DF11-9A5B-00215AE0E433\u0026case_title=Dosar-04-1r-1052-25112010-2208\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-11-2010",
+        "court": "Curtea de Apel Bender",
+        "title": "Oltu Andrei Lazăr,Catan Dorina, Ciobanu Serghei - prelungirea arestului preventiv",
+        "type": "Penal",
+        "subject": "Vatamarea intentionata grava a integritatii corporale sau a sanatatii (art. 151)",
+        "number": "04-1r-1052-25112010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=74F7DE95-C9E4-DE11-B9E5-00215AE0E433\u0026case_title=Dosar-04-2a-244-26102009-3147\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-11-2009",
+        "court": "Curtea de Apel Bender",
+        "title": "Botez Maria vs Vîrtos Angela, Vîrtos Dorina ",
+        "type": "Civil",
+        "subject": "Actiuni aparute din contractele de vînzare-cumparare",
+        "number": "04-2a-244-26102009"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A896EC70-F435-E511-A983-005056A5FB1A\u0026case_title=Dosar-26-4-1224-22062015-310\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-07-2015",
+        "court": "Judecătoria Drochia",
+        "title": "Roșca  Dorin Vitalie - art.243 CC al RM",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 243. Parasirea locului în care s-a produs accidentul rutier ",
+        "number": "26-4-1224-22062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=433CA73B-FBF9-E411-A983-005056A5FB1A\u0026case_title=Dosar-26-1-490-06032015-639\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-05-2015",
+        "court": "Judecătoria Drochia",
+        "title": "Rîmiș Dorin Mihail - art. 264/1 alin. 3 CP al RM",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "26-1-490-06032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4F2170AD-C2F7-E411-A983-005056A5FB1A\u0026case_title=Dosar-26-1-490-06032015-648\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-05-2015",
+        "court": "Judecătoria Drochia",
+        "title": "Rîmiș Dorin Mihail - art. 264/1 alin. 3 CP al RM",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "26-1-490-06032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=941A6FD4-D8DD-E411-A983-005056A5FB1A\u0026case_title=Dosar-26-4-408-23022015-848\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Drochia",
+        "title": "Marcoci Dorin Ion - art. 196 alin. 2 Cc al RM",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 196. Încalcarea regulilor si normelor sanitar-veterinare ",
+        "number": "26-4-408-23022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=353993DA-C1B2-E411-A92E-005056A5FB1A\u0026case_title=Dosar-26-2-582-11032014-1054\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-02-2015",
+        "court": "Judecătoria Drochia",
+        "title": "Egorova Dorina Fiodor vs Vacari Liudmila - încasarea pagubei materiale și morale.",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului material, datoriei, sumei",
+        "number": "26-2-582-11032014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=23E690D6-A7E9-E411-A983-005056A5FB1A\u0026case_title=Dosar-26-2-2185-30092014-1637\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-04-2015",
+        "court": "Judecătoria Drochia",
+        "title": "Maruseac Dorin Ion vs Garabișca Adriana Valeriu - încasarea pensiei alimentare.",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "26-2-2185-30092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0D709BD7-8953-E411-8956-005056A5FB1A\u0026case_title=Dosar-26-1-1202-02062014-1671\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "14-10-2014",
+        "court": "Judecătoria Drochia",
+        "title": "Lungu Diana Dorin - art. 264 alin. 3 lit. a) CP al RM.",
+        "type": "Penal",
+        "subject": "Incalcarea regulilor de securitate a circulatiei sau de exploatare a mijloacelor de transport de catre persoana care conduce mijlocul de transport (art. 264)",
+        "number": "26-1-1202-02062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C16425D8-B94E-E411-8956-005056A5FB1A\u0026case_title=Dosar-26-1-1680-01082014-1733\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-10-2014",
+        "court": "Judecătoria Drochia",
+        "title": "Bodorin Maria Ion - art. 186 alin. 2 lit. d) CP al RM.",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "26-1-1680-01082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B148E80F-0209-E411-8956-005056A5FB1A\u0026case_title=Dosar-26-2-830-09042014-2100\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Drochia",
+        "title": "Eșanu Elena Nicolae vs Eșanu Dorin Dumitru - desfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "26-2-830-09042014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=43C36252-F6BB-E311-AA5B-005056A5FB1A\u0026case_title=Dosar-26-2-2146-27122013-2626\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "04-04-2014",
+        "court": "Judecătoria Drochia",
+        "title": "Gagiu Dorina Alexandru vs Gagiu Constantin Ion - încasarea pensiei alimentare.",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "26-2-2146-27122013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0C19B236-4D51-E511-A983-005056A5FB1A\u0026case_title=Dosar-48-2-2213-23072015-128\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "01-09-2015",
+        "court": "Judecătoria Straseni",
+        "title": " SRL ICS,,Easy Credit`` vs Miron Dorin Condrat",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "48-2-2213-23072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7398115A-9941-E511-A983-005056A5FB1A\u0026case_title=Dosar-48-1-2254-27072015-169\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-08-2015",
+        "court": "Judecătoria Straseni",
+        "title": "Nicolaescu Dorin Vasile",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "48-1-2254-27072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=781978BD-E539-E511-A983-005056A5FB1A\u0026case_title=Dosar-48-1-331-03022015-222\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Straseni",
+        "title": "Dumbrava Dorin Ion",
+        "type": "Penal",
+        "subject": "Raportul sexual cu o persoana care nu a atins vîrsta de 16 ani (art. 174)",
+        "number": "48-1-331-03022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=28DB034C-7537-E511-A983-005056A5FB1A\u0026case_title=Dosar-48-1-1711-10062015-299\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "21-07-2015",
+        "court": "Judecătoria Straseni",
+        "title": "Miron Dorin Condrat",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "48-1-1711-10062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9E3CC0C2-7625-E511-A983-005056A5FB1A\u0026case_title=Dosar-48-2-1449-15052015-395\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "07-07-2015",
+        "court": "Judecătoria Straseni",
+        "title": "IM \u0026quot;Apă Canal\u0026quot; vs Harabara Dorin",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "48-2-1449-15052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=85D233A6-FA10-E511-A983-005056A5FB1A\u0026case_title=Dosar-48-2-504-20022015-656\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Straseni",
+        "title": "Boian Viorel vs Boian Dorina",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "48-2-504-20022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D2E67E79-B6B5-E411-A92E-005056A5FB1A\u0026case_title=Dosar-48-2-397-10022015-1352\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-02-2015",
+        "court": "Judecătoria Straseni",
+        "title": "Lupașco Dorina vs Iosif Alecu Alexei",
+        "type": "Civil",
+        "subject": "Aplicarea măsurilor de protecţie în cazurile de violenţă în familie",
+        "number": "48-2-397-10022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=518CCC3F-C9A2-E411-A92E-005056A5FB1A\u0026case_title=Dosar-48-2-1109-15042014-1452\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-01-2015",
+        "court": "Judecătoria Straseni",
+        "title": "Stancov Dorin vs Luca Sergiu",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "48-2-1109-15042014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0E5AD51B-4871-E411-8956-005056A5FB1A\u0026case_title=Dosar-48-2-1309-08052014-1711\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Straseni",
+        "title": "Ciorici Dorina vs Ciorici Pantelimon",
+        "type": "Civil",
+        "subject": "Privarea de  drepturi a parintilor",
+        "number": "48-2-1309-08052014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=83E0C7DE-2C88-E411-A92E-005056A5FB1A\u0026case_title=Dosar-48-2-1846-01072014-1744\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-11-2014",
+        "court": "Judecătoria Straseni",
+        "title": "IM,,Gospodaria comunala Straseni,, vs Harabara Dorin",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "48-2-1846-01072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1605D211-331E-E511-B888-005056A5D154\u0026case_title=Dosar-50-2-835-25032015-315\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-06-2015",
+        "court": "Judecătoria Telenesti",
+        "title": " Eșanu Nina către Borz Lucian Dorin privind încasarea pensiei alimentare  ",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "50-2-835-25032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F1A5CA86-6A2F-E511-B888-005056A5D154\u0026case_title=Dosar-50-2-744-16032015-575\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-07-2015",
+        "court": "Judecătoria Telenesti",
+        "title": " Sclearov Ghenadie către Morozniuc Dorina privind determinarea domiciliului copilului minor  ",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "50-2-744-16032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A90A884B-78E2-E411-B888-005056A5D154\u0026case_title=Dosar-50-2-206-22012015-824\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-04-2015",
+        "court": "Judecătoria Telenesti",
+        "title": " Compania Internațională de Asigurări ” ASITO” către Șerban Dorin privind încasarea datoriei mod regres  ",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "50-2-206-22012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=260B9998-23FE-E411-B888-005056A5D154\u0026case_title=Dosar-50-2-206-22012015-825\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-04-2015",
+        "court": "Judecătoria Telenesti",
+        "title": " Compania Internațională de Asigurări ” ASITO” către Șerban Dorin privind încasarea datoriei mod regres  ",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "50-2-206-22012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DCED31EF-41B7-E411-8112-005056A5D154\u0026case_title=Dosar-50-2-28-05012015-917\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-02-2015",
+        "court": "Judecătoria Telenesti",
+        "title": "Curasevici Dorina către Curasevivi Igor privind decăderea din drepturile părintești.",
+        "type": "Civil",
+        "subject": "Privarea de  drepturi a parintilor",
+        "number": "50-2-28-05012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=07097F67-DAC0-E411-8112-005056A5D154\u0026case_title=Dosar-50-2-1728-09092014-1105\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-03-2015",
+        "court": "Judecătoria Telenesti",
+        "title": "Moraru Dorina către Deleu Adrian,Botnari Nicolae,Moraru Feodosie privind încasarea datoriei. ",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "50-2-1728-09092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B8B99C7C-4980-E411-8112-005056A5D154\u0026case_title=Dosar-50-2-1454-30072014-1305\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-12-2014",
+        "court": "Judecătoria Telenesti",
+        "title": "Popescu Gheorghe Gheorghe vs Popescu Dorina privind scutirea de la plata pensiei alimentare.  ",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "50-2-1454-30072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=48462A11-526E-E411-8E3E-005056A5D154\u0026case_title=Dosar-50-4-1885-06102014-1429\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-11-2014",
+        "court": "Judecătoria Telenesti",
+        "title": "Petrachi Dorin Tudor",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 366. Neîndeplinirea îndatoririlor privind evidenta militara ",
+        "number": "50-4-1885-06102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5140815A-7AF0-E311-8E3E-005056A5D154\u0026case_title=Dosar-50-2-2080-18112013-2306\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-06-2014",
+        "court": "Judecătoria Telenesti",
+        "title": "Curasevici Dorina vs Curasevici Igor",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "50-2-2080-18112013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D3417A05-D0F5-E211-A6D8-005056A5D154\u0026case_title=Dosar-50-2-1143-12062013-3392\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-07-2013",
+        "court": "Judecătoria Telenesti",
+        "title": "Ţurcanu Dorina vs Ţurcan Nicolae",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "50-2-1143-12062013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E664F485-E64A-E511-A983-005056A5FB1A\u0026case_title=Dosar-30-2-1468-30072015-155\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "21-08-2015",
+        "court": "Judecătoria Floresti",
+        "title": "Vdovăi Oleg Alexandru  către Vdovăi Dorina Andrei",
+        "type": "Civil",
+        "subject": "Dosare de procedura contencioasa",
+        "number": "30-2-1468-30072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4F585D06-2B1B-E511-A983-005056A5FB1A\u0026case_title=Dosar-30-2-898-20052015-404\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "25-06-2015",
+        "court": "Judecătoria Floresti",
+        "title": "Botezatu Diana vs Botezatu Dorin",
+        "type": "Civil",
+        "subject": "Dosare de procedura contencioasa",
+        "number": "30-2-898-20052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0AE3B410-7CE3-E411-A983-005056A5FB1A\u0026case_title=Dosar-30-2-1448-21082014-785\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-04-2015",
+        "court": "Judecătoria Floresti",
+        "title": "Cîrțu Livia Semion către Cîrțu Dorin Eugeniu",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "30-2-1448-21082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C036EFF5-4E66-E411-8956-005056A5FB1A\u0026case_title=Dosar-30-25-1825-27102014-1391\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-11-2014",
+        "court": "Judecătoria Floresti",
+        "title": "Revencu Aliona vs Revencu Dorin",
+        "type": "Civil",
+        "subject": "Alte actiuni",
+        "number": "30-25-1825-27102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5CE9145D-2A63-E411-8956-005056A5FB1A\u0026case_title=Dosar-30-2-1597-15092014-1393\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-11-2014",
+        "court": "Judecătoria Floresti",
+        "title": "Tricolici Dorin Gheorghe către Tricolici Valentina Nicolae",
+        "type": "Civil",
+        "subject": "Dosare de procedura contencioasa",
+        "number": "30-2-1597-15092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=BA9B9446-DC60-E411-8956-005056A5FB1A\u0026case_title=Dosar-30-25-1828-27102014-1396\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "31-10-2014",
+        "court": "Judecătoria Floresti",
+        "title": "Revencu Dorin Anatolie",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "30-25-1828-27102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=26023F0E-4E3A-E411-8956-005056A5FB1A\u0026case_title=Dosar-30-4-1384-12082014-1588\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Floresti",
+        "title": "Furtună Dorin Eugeniu",
+        "type": "Contravenţie administrativă",
+        "subject": "Contravenţii ce afectează activitatea de întreprinzător, fiscalitatea, activitatea vamală şi valorile mobiliare",
+        "number": "30-4-1384-12082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=166B969C-A4CF-E311-844C-005056A5FB1A\u0026case_title=Dosar-30-2-449-18032014-2130\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-04-2014",
+        "court": "Judecătoria Floresti",
+        "title": "Vdovii Victor vs Vdovii Dorina",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "30-2-449-18032014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=757B815A-EF7C-E311-AA5B-005056A5FB1A\u0026case_title=Dosar-30-2-2122-17122013-2513\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "14-01-2014",
+        "court": "Judecătoria Floresti",
+        "title": "Moldovan Gelu Pavel vs Cenușă Dorin Petru",
+        "type": "Civil",
+        "subject": "Contestarea actelor executorului judecătoresc ",
+        "number": "30-2-2122-17122013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=86F6090F-2C4C-E311-966A-005056A5FB1A\u0026case_title=Dosar-30-4-1817-22102013-2756\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Floresti",
+        "title": "Latu Dorin Mihail",
+        "type": "Contravenţie administrativă",
+        "subject": "Contraventii în domeniul circulatiei rutiere",
+        "number": "30-4-1817-22102013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=69D4B32D-9C15-E511-B888-005056A5D154\u0026case_title=Dosar-37-2-634-29052015-194\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-06-2015",
+        "court": "Judecătoria Ocnita",
+        "title": "Arseni Olga vs Arseni Dorin",
+        "type": "Civil",
+        "subject": "Privarea de  drepturi a parintilor",
+        "number": "37-2-634-29052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0BE4ADC4-7903-E511-B888-005056A5D154\u0026case_title=Dosar-37-2-515-27042015-257\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-05-2015",
+        "court": "Judecătoria Ocnita",
+        "title": "Guțu Dorin vs Guțu  Angela",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "37-2-515-27042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=AD72A324-79D7-E411-B888-005056A5D154\u0026case_title=Dosar-37-1-191-13022015-479\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "31-03-2015",
+        "court": "Judecătoria Ocnita",
+        "title": "Gheorghieș Dorin Nicolai",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "37-1-191-13022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=BBA83865-C1B5-E411-8112-005056A5D154\u0026case_title=Dosar-37-2-1356-19122014-586\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-02-2015",
+        "court": "Judecătoria Ocnita",
+        "title": "Arseni Olga vs Arseni  Dorin",
+        "type": "Civil",
+        "subject": "Privarea de  drepturi a parintilor",
+        "number": "37-2-1356-19122014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7325302D-A986-E411-8112-005056A5D154\u0026case_title=Dosar-37-4-1291-04122014-669\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-12-2014",
+        "court": "Judecătoria Ocnita",
+        "title": "Malear Dorin Vasile",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 366. Neîndeplinirea îndatoririlor privind evidenta militara ",
+        "number": "37-4-1291-04122014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0D49D225-0934-E411-8E3E-005056A5D154\u0026case_title=Dosar-37-2-835-11082014-988\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "04-09-2014",
+        "court": "Judecătoria Ocnita",
+        "title": "ÎCS\u0026quot;Easy Credit\u0026quot; vs Cernețchii Dorin",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "37-2-835-11082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=010C1C1F-73E5-E311-8E3E-005056A5D154\u0026case_title=Dosar-37-2-160-26022014-1256\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-05-2014",
+        "court": "Judecătoria Ocnita",
+        "title": "Mazur Dorin vs Mazur Aurica",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "37-2-160-26022014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=2120DF02-7BB9-E311-9DF1-005056A5D154\u0026case_title=Dosar-37-4-175-03032014-1379\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "01-04-2014",
+        "court": "Judecătoria Ocnita",
+        "title": "Djulepa Dorin Anatolie                     art. 233 al.1 CC",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 233. Conducerea vehiculului în stare de ebrietate produsa de alcool, predarea conducerii lui catre o persoana care se afla în stare de ebrietate produsa de alcool sau de alte substante ",
+        "number": "37-4-175-03032014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=710DD954-FDA8-E311-9DF1-005056A5D154\u0026case_title=Dosar-37-2-132-19022014-1420\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-03-2014",
+        "court": "Judecătoria Ocnita",
+        "title": "Mazur Aurica Ilii vs Mazur Dorin",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "37-2-132-19022014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=752EF269-7235-E311-AD4B-005056A5D154\u0026case_title=Dosar-37-21-1113-27092013-1697\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "15-10-2013",
+        "court": "Judecătoria Ocnita",
+        "title": "demersul BP  anularea condamnării pe Sîtnic Dorin",
+        "type": "Penal",
+        "subject": "Materiale privind punerea în executare a hotărîrilor judecătoreşti",
+        "number": "37-21-1113-27092013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=889A77AD-CB6C-E511-A983-005056A5FB1A\u0026case_title=Dosar-38-2-2217-01062015-80\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "07-10-2015",
+        "court": "Judecătoria Orhei",
+        "title": "ÎCS ” Express Leasing” SRL , Bordian  Dorin ,  încasarea  datoriei  1339,97 USD ",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "38-2-2217-01062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7A6701A3-DF1B-E511-A983-005056A5FB1A\u0026case_title=Dosar-38-4-1610-17042015-506\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-06-2015",
+        "court": "Judecătoria Orhei",
+        "title": "Demers  Inspectoratul de  OP  Poliție  Orhei , Dascal   Dorin Nicolae , art.229 alin, 2 și 3 CC al RM.",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 229. Încalcarea regulilor de înmatriculare sau de înregistrare de stat, de revizie tehnica a vehiculelor ",
+        "number": "38-4-1610-17042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3477D6A2-DC0D-E511-A983-005056A5FB1A\u0026case_title=Dosar-38-2-4504-20112014-654\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-06-2015",
+        "court": "Judecătoria Orhei",
+        "title": "Stroici Natalia Anatol vs Rusu Dorin Gheorghe-stabilirea domiciliului copilului minor și încasarea pensiei de întreținere",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "38-2-4504-20112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=93FC8DCF-75D7-E411-A983-005056A5FB1A\u0026case_title=Dosar-38-1-1118-12032015-1127\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-03-2015",
+        "court": "Judecătoria Orhei",
+        "title": "Căpățină Constantin,Bunici Dorin,Grosu Vitalie,art.187 alin.(2) lit.b) și f) Cod penal.",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "38-1-1118-12032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5CD71D26-4DA2-E411-A92E-005056A5FB1A\u0026case_title=Dosar-38-1-4205-31102014-1809\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-01-2015",
+        "court": "Judecătoria Orhei",
+        "title": "Stoler Dorin Vasile,art 186 alin.(2) lit.c),d) Cod penal",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "38-1-4205-31102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=6C29FBEF-6487-E411-A92E-005056A5FB1A\u0026case_title=Dosar-38-2-4622-27112014-1977\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "19-12-2014",
+        "court": "Judecătoria Orhei",
+        "title": "Movileanu Dorin Gheorghe vs Condraciuc Tatiana Gheorghe-desfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "38-2-4622-27112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F985C480-3384-E411-A92E-005056A5FB1A\u0026case_title=Dosar-38-2-2088-13062014-2054\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "15-12-2014",
+        "court": "Judecătoria Orhei",
+        "title": "Chicuș(Samoil) Anna Pavel vs Chicuș Dorin Pavel,desfacerea căsătoriei,încasarea pensiei alimentare.",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "38-2-2088-13062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7A9F7986-6984-E411-A92E-005056A5FB1A\u0026case_title=Dosar-38-1-1632-07052014-2161\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "04-12-2014",
+        "court": "Judecătoria Orhei",
+        "title": "Vlas Dorina Ion,art.186 alin.(2) lit.d) Cod penal",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "38-1-1632-07052014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B1D0303C-496E-E411-8956-005056A5FB1A\u0026case_title=Dosar-38-1-3802-25112013-2291\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "17-11-2014",
+        "court": "Judecătoria Orhei",
+        "title": "Tihon Dorin Simion,art.264 alin.(4) Cod penal",
+        "type": "Penal",
+        "subject": "Infractiuni în domeniul transporturilor",
+        "number": "38-1-3802-25112013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D8FC18B5-6A1D-E411-8956-005056A5FB1A\u0026case_title=Dosar-38-2-2212-20062014-2881\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-08-2014",
+        "court": "Judecătoria Orhei",
+        "title": "Sîrbu Dorina vs Inspectoratul Fiscal de Stat Orhei,prelungirea termenului de acceptare a succesiunii",
+        "type": "Civil",
+        "subject": "Moştenirea",
+        "number": "38-2-2212-20062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A670B7EE-1B4B-E511-A983-005056A5FB1A\u0026case_title=Dosar-46-1-1109-15042015-208\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "25-08-2015",
+        "court": "Judecătoria Soroca",
+        "title": "Prisacari Dorina Vasile",
+        "type": "Penal",
+        "subject": "Coruperea activa (art. 325)",
+        "number": "46-1-1109-15042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3F37FB65-B041-E511-A983-005056A5FB1A\u0026case_title=Dosar-46-4-2228-31072015-238\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-08-2015",
+        "court": "Judecătoria Soroca",
+        "title": "Barițchi Dorin Constantin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 233. Conducerea vehiculului în stare de ebrietate produsa de alcool, predarea conducerii lui catre o persoana care se afla în stare de ebrietate produsa de alcool sau de alte substante ",
+        "number": "46-4-2228-31072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D1F95464-76EA-E411-A983-005056A5FB1A\u0026case_title=Dosar-46-2-928-27032015-793\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-04-2015",
+        "court": "Judecătoria Soroca",
+        "title": "ÎCS,,Expres Leasing”SRL vs Frasinescu Dorin Alexei",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "46-2-928-27032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3D7A276F-4EBE-E411-A92E-005056A5FB1A\u0026case_title=Dosar-46-4-318-03022015-1098\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-02-2015",
+        "court": "Judecătoria Soroca",
+        "title": "Pădure Dorin Alexandru",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 243. Parasirea locului în care s-a produs accidentul rutier ",
+        "number": "46-4-318-03022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=90A0EA0E-E68C-E411-A92E-005056A5FB1A\u0026case_title=Dosar-46-4-3426-28112014-1362\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-12-2014",
+        "court": "Judecătoria Soroca",
+        "title": "Prisacari Dorina Vasile",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 343. Transmiterea sau tentativa de a transmite catre detinuti obiecte, substante, produse interzise ",
+        "number": "46-4-3426-28112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=47DEE6E7-C559-E411-8956-005056A5FB1A\u0026case_title=Dosar-46-2-2306-07082014-1817\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-10-2014",
+        "court": "Judecătoria Soroca",
+        "title": "Rotari Dorin vs IFS Soroca",
+        "type": "Civil",
+        "subject": "Alte dosare de gestiune speciala",
+        "number": "46-2-2306-07082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=187591C4-C413-E411-8956-005056A5FB1A\u0026case_title=Dosar-46-2-2086-14072014-2143\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "25-07-2014",
+        "court": "Judecătoria Soroca",
+        "title": "Garbuzov Dorina vs Ceban Veaceslav",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "46-2-2086-14072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=34CFF1D6-2400-E411-8956-005056A5FB1A\u0026case_title=Dosar-46-2-1754-11062014-2299\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-06-2014",
+        "court": "Judecătoria Soroca",
+        "title": "Pascari Dorina vs Pascari Oleg Constantin",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "46-2-1754-11062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=58BDBB61-5662-E311-966A-005056A5FB1A\u0026case_title=Dosar-46-4-3054-03122013-3514\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-12-2013",
+        "court": "Judecătoria Soroca",
+        "title": "Vînaga Dorin Eugeniu",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 179. Constructii neautorizate si interventii neautorizate la constructiile existente ",
+        "number": "46-4-3054-03122013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=94076479-32B4-E311-AA5B-005056A5FB1A\u0026case_title=Dosar-46-5r-2115-30082013-3672\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "19-11-2013",
+        "court": "Judecătoria Soroca",
+        "title": "Procopii Dorin Alexei",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 448. Contestaţia împotriva procesului-verbal cu privire la contravenţie",
+        "number": "46-5r-2115-30082013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4FB999A8-AC18-E011-B9AC-001871EBDAC4\u0026case_title=Dosar-06-1r-518-21072010-3159\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-09-2010",
+        "court": "Curtea de Apel Comrat",
+        "title": "Zgîrcebabă Dorin Fiodor",
+        "type": "Penal",
+        "subject": "Huliganismul (art. 287)",
+        "number": "06-1r-518-21072010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B2A4E80A-3F10-E511-B888-005056A5D154\u0026case_title=Dosar-13-4-989-22052015-390\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-06-2015",
+        "court": "Judecătoria Briceni",
+        "title": "Reul Dorin Ion-art.318al.1 CC RM ",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 318. Neexecutarea hotarîrii instantei de judecata ",
+        "number": "13-4-989-22052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=BFBA05AC-E10D-E511-B888-005056A5D154\u0026case_title=Dosar-13-4-969-21052015-416\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-06-2015",
+        "court": "Judecătoria Briceni",
+        "title": "Mititelu Dorin Victor - art.318 CC RM ",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 318. Neexecutarea hotarîrii instantei de judecata ",
+        "number": "13-4-969-21052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=ABA23CD3-E1F7-E411-B888-005056A5D154\u0026case_title=Dosar-13-4-772-22042015-516\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-05-2015",
+        "court": "Judecătoria Briceni",
+        "title": "Galadiuc  Dorin Petru - art.177 al. 2 CC RM ",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 177. Încalcarea legislatiei si documentelor normative în constructii ",
+        "number": "13-4-772-22042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B176662D-C80D-E511-B888-005056A5D154\u0026case_title=Dosar-13-4-781-23042015-523\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-06-2015",
+        "court": "Judecătoria Briceni",
+        "title": "Galadiuc Dorin Petru - art.179 CC RM ",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 179. Constructii neautorizate si interventii neautorizate la constructiile existente ",
+        "number": "13-4-781-23042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1CC55709-DF89-E411-8112-005056A5D154\u0026case_title=Dosar-13-1-2134-17112014-1101\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-12-2014",
+        "court": "Judecătoria Briceni",
+        "title": "Josan Dorin Victor - art.264 al.(1) CP RM",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "13-1-2134-17112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=58B1C401-2FA5-E411-8112-005056A5D154\u0026case_title=Dosar-13-2-1779-25092014-1233\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-01-2015",
+        "court": "Judecătoria Briceni",
+        "title": "Săracuța  Dorin Alexei vs Sărăcuța  Rodica Alexandru - desfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "13-2-1779-25092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5A69324A-044A-E411-8E3E-005056A5D154\u0026case_title=Dosar-13-2-1606-26082014-1354\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-10-2014",
+        "court": "Judecătoria Briceni",
+        "title": "Tcaciuc Iana Dorin vs Tcaciuc Ian Petru - desfacerea căsătoriei și stabilirea domiciliului copilului minor",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "13-2-1606-26082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=90B0FAB1-D722-E411-8E3E-005056A5D154\u0026case_title=Dosar-13-2-1204-08072014-1500\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-08-2014",
+        "court": "Judecătoria Briceni",
+        "title": "Vislobocova(Gîrtopan) Dorina vs Vislobocov Alexei Nicolai - stabilirea domiciliului copilului minor",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "13-2-1204-08072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=31E81889-60ED-E311-8E3E-005056A5D154\u0026case_title=Dosar-13-4-740-29042014-1702\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-06-2014",
+        "court": "Judecătoria Briceni",
+        "title": "Marco Dorin V. - art. 354 CCoRM",
+        "type": "Contravenţie administrativă",
+        "subject": "Alte contraventii",
+        "number": "13-4-740-29042014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=526B21AD-77ED-E311-8E3E-005056A5D154\u0026case_title=Dosar-13-2-714-23042014-1791\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "07-05-2014",
+        "court": "Judecătoria Briceni",
+        "title": "Comerzan Valeriu vs Mititelu Dorin Victor - anunțarea în căutare",
+        "type": "Civil",
+        "subject": "Căutarea şi aducerea forţată a debitorului",
+        "number": "13-2-714-23042014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=815690DE-9E78-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-2-3472-18022015-10\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-10-2015",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Trestianu Carolina vs Trestianu Dorin",
+        "type": "Civil",
+        "subject": "Dosare de procedura contencioasa",
+        "number": "20-2-3472-18022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C382D598-0074-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-3-15796-24072015-72\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-10-2015",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Oficiul teritorial Chisinau al Cancelariei de Stat vs Primarul general al mun. Chisinau DL Dorin Chirtoaca",
+        "type": "Civil",
+        "subject": "Dosare examinate conform Legii contenciosului administrativ ",
+        "number": "20-3-15796-24072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=684856B8-B770-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-3-7467-02042015-188\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-10-2015",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Oficiul teritorial Chisinau al Cancelariei de Stat vs Primarul general al mun. Chisinau DL Dorin Chirtoaca",
+        "type": "Civil",
+        "subject": "Dosare examinate conform Legii contenciosului administrativ ",
+        "number": "20-3-7467-02042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A593F1C0-A966-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-4-14135-01072015-396\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Chirtoaca Dorin Ion",
+        "type": "Contravenţie administrativă",
+        "subject": "Contraventii ce afecteaza activitatea autoritatilor publice",
+        "number": "20-4-14135-01072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=034CFE43-3873-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-3-2312-05022015-495\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-09-2015",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Oficiul Teritorial Chisinau al Cancelariei de Stat vs Primarul general al municipiului Chisinau Dl Dorin Chirtoaca",
+        "type": "Civil",
+        "subject": "Dosare examinate conform Legii contenciosului administrativ ",
+        "number": "20-3-2312-05022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=6FCA1034-F961-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-3-2312-05022015-496\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-09-2015",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Oficiul Teritorial Chisinau al Cancelariei de Stat vs Primarul general al municipiului Chisinau Dl Dorin Chirtoaca",
+        "type": "Civil",
+        "subject": "Dosare examinate conform Legii contenciosului administrativ ",
+        "number": "20-3-2312-05022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C6D72460-D562-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-4-12233-05062015-512\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-09-2015",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Chirtoaca Dorin Ion",
+        "type": "Contravenţie administrativă",
+        "subject": "Contraventii ce afecteaza activitatea autoritatilor publice",
+        "number": "20-4-12233-05062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9577258A-6A63-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-3-13190-18062015-594\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "17-09-2015",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Oficiul teritorial Chisinau al Cancelariei de Stat vs Primarul general al mun. Chisinau DL Dorin Chirtoaca",
+        "type": "Civil",
+        "subject": "Dosare examinate conform Legii contenciosului administrativ ",
+        "number": "20-3-13190-18062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B4BA7860-405D-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-3-13190-18062015-595\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "17-09-2015",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Oficiul teritorial Chisinau al Cancelariei de Stat vs Primarul general al mun. Chisinau DL Dorin Chirtoaca",
+        "type": "Civil",
+        "subject": "Dosare examinate conform Legii contenciosului administrativ ",
+        "number": "20-3-13190-18062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=33BC2ECE-0932-E511-A983-005056A5FB1A\u0026case_title=Dosar-20-2-7724-07042015-862\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-07-2015",
+        "court": "Judecătoria Centru/Grigoriopol",
+        "title": "Tugulea Elena vs Tugulea Dorin",
+        "type": "Civil",
+        "subject": "Dosare de procedura contencioasa",
+        "number": "20-2-7724-07042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DC66A494-EA77-E511-A983-005056A5FB1A\u0026case_title=Dosar-22-1-4484-11092015-47\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-10-2015",
+        "court": "Judecătoria Ciocana",
+        "title": "Untila Dorin Ion",
+        "type": "Penal",
+        "subject": "Circulatia ilegala a substantelor narcotice, psihotrope sau a analoagelor lor fara scop de înstrainare (art. 217)",
+        "number": "22-1-4484-11092015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=02C45B1A-0D73-E511-A983-005056A5FB1A\u0026case_title=Dosar-22-2-3558-16072015-104\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "15-10-2015",
+        "court": "Judecătoria Ciocana",
+        "title": "Niculin Dorina Ion vs Niculin Victor",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "22-2-3558-16072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A001E354-8DBE-E411-A92E-005056A5FFB6\u0026case_title=Dosar-22-2-27-12012015-1934\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-02-2015",
+        "court": "Judecătoria Ciocana",
+        "title": "Asandei Dorin Andrei vs Asandei Mariana",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "22-2-27-12012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=04D06509-8DBE-E411-A92E-005056A5FFB6\u0026case_title=Dosar-22-2-6472-05122014-1935\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-02-2015",
+        "court": "Judecătoria Ciocana",
+        "title": "Roșca-Melniciuc Miroslava Afanasie vs Melniciuc  Dorin Victor",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "22-2-6472-05122014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=ECEB2F7E-31BC-E411-A92E-005056A5FB1A\u0026case_title=Dosar-22-1-4156-12082014-1973\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Ciocana",
+        "title": "Grati Dorin Dumitru",
+        "type": "Penal",
+        "subject": "Amenintarea cu omor ori cu vatamarea grava a integritatii corporale sau a sanatatii (art. 155)",
+        "number": "22-1-4156-12082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5841F6ED-1D76-E411-8956-005056A5FB1A\u0026case_title=Dosar-22-2-5659-27102014-2741\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-11-2014",
+        "court": "Judecătoria Ciocana",
+        "title": "Tomșa Dorin vs Tomșa Ina",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "22-2-5659-27102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4D0FE3A0-BA3C-E411-8956-005056A5FB1A\u0026case_title=Dosar-22-2-825-17022014-3382\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "15-09-2014",
+        "court": "Judecătoria Ciocana",
+        "title": " SA Apă-Canal Chișinău vs Chiriac Dorin Ion",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "22-2-825-17022014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1F91E453-0101-E411-8956-005056A5FB1A\u0026case_title=Dosar-22-2-2118-30042014-3645\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-06-2014",
+        "court": "Judecătoria Ciocana",
+        "title": "Colța Igor Grigore vs Iuraș Dorin Nicolae",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "22-2-2118-30042014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=10302039-3CEA-E311-8956-005056A5FB1A\u0026case_title=Dosar-22-2-1801-09042014-3942\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-06-2014",
+        "court": "Judecătoria Ciocana",
+        "title": "Poloboc Dorina Vladimir vs Poloboc Vladimir Vladimir",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "22-2-1801-09042014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=47E67F1E-99E5-E311-8956-005056A5FB1A\u0026case_title=Dosar-22-2-1668-02042014-3980\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-05-2014",
+        "court": "Judecătoria Ciocana",
+        "title": "Botnaru Dorina Ion vs Botnaru Vadim Victor",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "22-2-1668-02042014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F4916631-3D4A-E511-A983-005056A5FB1A\u0026case_title=Dosar-28-2-1266-20072015-170\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-08-2015",
+        "court": "Judecătoria Edinet",
+        "title": "Ciornîi Dorina vs Ciornîi Dumitru privind desfacerea căsătoriei și încasarea pensiei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "28-2-1266-20072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B68F1868-3960-E511-A983-005056A5FB1A\u0026case_title=Dosar-28-2-1098-07072014-193\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-07-2015",
+        "court": "Judecătoria Edinet",
+        "title": "Danilovici Alexei vs Vesiolîi Dorin privind recuperarea prejudiciului patrimonial",
+        "type": "Civil",
+        "subject": "Alte actiuni",
+        "number": "28-2-1098-07072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7EAC06C5-AC45-E511-A983-005056A5FB1A\u0026case_title=Dosar-28-2-1098-07072014-194\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-08-2015",
+        "court": "Judecătoria Edinet",
+        "title": "Danilovici Alexei vs Vesiolîi Dorin privind recuperarea prejudiciului patrimonial",
+        "type": "Civil",
+        "subject": "Alte actiuni",
+        "number": "28-2-1098-07072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5AC25264-AE24-E511-A983-005056A5FB1A\u0026case_title=Dosar-28-2-620-07042015-381\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-07-2015",
+        "court": "Judecătoria Edinet",
+        "title": "Bradu Dorin vs Teleba Nicolae privind încasarea prejudiciului material și moral",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului moral",
+        "number": "28-2-620-07042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E1B3B00E-D718-E511-A983-005056A5FB1A\u0026case_title=Dosar-28-2-878-20052015-430\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Edinet",
+        "title": "Bodorin Silvia vs Bodorin Vadim privind desfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "28-2-878-20052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0B6F0A2B-ADF7-E411-A983-005056A5FB1A\u0026case_title=Dosar-28-4-707-23042015-597\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-05-2015",
+        "court": "Judecătoria Edinet",
+        "title": " Panțîru  Dorin Viorel pe art 242,243 Cco-RM ",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 242. Încalcarea regulilor de circulatie rutiera soldata cu deteriorarea bunurilor materiale ori cu cauzarea de leziuni corporale usoare ",
+        "number": "28-4-707-23042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F4828E66-D3F7-E411-A983-005056A5FB1A\u0026case_title=Dosar-28-4-707-23042015-598\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-05-2015",
+        "court": "Judecătoria Edinet",
+        "title": " Panțîru  Dorin Viorel pe art 242,243 Cco-RM ",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 242. Încalcarea regulilor de circulatie rutiera soldata cu deteriorarea bunurilor materiale ori cu cauzarea de leziuni corporale usoare ",
+        "number": "28-4-707-23042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=53D72B6E-55BE-E411-A92E-005056A5FB1A\u0026case_title=Dosar-28-2-16-12012015-858\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-02-2015",
+        "court": "Judecătoria Edinet",
+        "title": "Chirilciuc Tatiana vs Cebotărescu Dorin privind desfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "28-2-16-12012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4F8685E7-33A2-E411-A92E-005056A5FB1A\u0026case_title=Dosar-28-1-2017-26112014-1032\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-01-2015",
+        "court": "Judecătoria Edinet",
+        "title": "Botnari Dorin Vasile în comiterea infracțiunii prevăzute de art 264 al 1 CP RM",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "28-1-2017-26112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=BB39EE91-0876-E411-8956-005056A5FB1A\u0026case_title=Dosar-28-2-1763-16102014-1200\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-11-2014",
+        "court": "Judecătoria Edinet",
+        "title": "Chilaru Dorin Pintilie vs Chilaru Ina Vasile despre deesfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "28-2-1763-16102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=289E4DC5-AD71-E511-A983-005056A5FB1A\u0026case_title=Dosar-36-2-709-25052015-44\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-10-2015",
+        "court": "Judecătoria Nisporeni",
+        "title": "Sandu Cristina vs Sandu Dorin",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "36-2-709-25052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B06B6896-B078-E511-A983-005056A5FB1A\u0026case_title=Dosar-36-2-709-25052015-45\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-10-2015",
+        "court": "Judecătoria Nisporeni",
+        "title": "Sandu Cristina vs Sandu Dorin",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "36-2-709-25052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C2A64049-9371-E511-A983-005056A5FB1A\u0026case_title=Dosar-36-1-1176-14082015-52\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-10-2015",
+        "court": "Judecătoria Nisporeni",
+        "title": "Stîngu Dorin Mihail",
+        "type": "Penal",
+        "subject": "Incalcarea regulilor de securitate a circulatiei sau de exploatare a mijloacelor de transport de catre persoana care conduce mijlocul de transport (art. 264)",
+        "number": "36-1-1176-14082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5CE5EBF9-690E-E511-A983-005056A5FB1A\u0026case_title=Dosar-36-4-769-05062015-334\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-06-2015",
+        "court": "Judecătoria Nisporeni",
+        "title": "Sandu Dorin Nicolae",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 336. Nesubordonarea cu rea-vointa dispozitiei sau cererii legitime a colaboratorului organelor de ocrotire a normelor de drept ",
+        "number": "36-4-769-05062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=635BC99D-BBF4-E411-A983-005056A5FB1A\u0026case_title=Dosar-36-2-374-20032015-409\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "07-05-2015",
+        "court": "Judecătoria Nisporeni",
+        "title": "Robu Dorina Ion vs Robu Andrei Mihail",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "36-2-374-20032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=CFCAA0FD-36A2-E411-A92E-005056A5FB1A\u0026case_title=Dosar-36-2-1020-07082014-654\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-01-2015",
+        "court": "Judecătoria Nisporeni",
+        "title": "Bobernaga Dorina Ion vs Bobernaga Oleg Andrei",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "36-2-1020-07082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=03657CD8-F00C-E411-8956-005056A5FB1A\u0026case_title=Dosar-36-4-909-16072014-949\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-07-2014",
+        "court": "Judecătoria Nisporeni",
+        "title": "Pelin Dorin Dumitru",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 69. Injuria ",
+        "number": "36-4-909-16072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E6F857FA-A6EE-E211-9CAD-005056A5FB1A\u0026case_title=Dosar-36-2-551-21052013-1447\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-07-2013",
+        "court": "Judecătoria Nisporeni",
+        "title": "Farima Ivan Grigore vs Farima Dorina Ivan",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "36-2-551-21052013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D92D13A2-02EE-E211-9CAD-005056A5FB1A\u0026case_title=Dosar-36-2p/o-784-12072013-1448\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-07-2013",
+        "court": "Judecătoria Nisporeni",
+        "title": "Barbuta Dorin vs Creciun Ion",
+        "type": "Civil",
+        "subject": "Alte materiale",
+        "number": "36-2p/o-784-12072013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A31E8F86-539C-E211-92DB-002264CC687B\u0026case_title=Dosar-36-4-327-13032013-1595\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-04-2013",
+        "court": "Judecătoria Nisporeni",
+        "title": "Popa Dorina Vasile",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 177. Încalcarea legislatiei si documentelor normative în constructii ",
+        "number": "36-4-327-13032013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=66988E29-5E76-E511-8A1B-005056A5D154\u0026case_title=Dosar-02-2r-15218-04082015-118\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "19-10-2015",
+        "court": "Curtea de Apel Chişinău",
+        "title": "Executor Judecatoresc Jidovanu Dorin vs Fala Ion Grigorii",
+        "type": "Civil",
+        "subject": "Alte actiuni",
+        "number": "02-2r-15218-04082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=ECF924F3-1474-E511-8A1B-005056A5D154\u0026case_title=Dosar-02-3a-22181-04122014-352\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-10-2015",
+        "court": "Curtea de Apel Chişinău",
+        "title": "Oficiul teritorial Chisinau al Cancelariei de Stat vs Primarul General al Municipiului Chisinau  Dorin Chirtoaca",
+        "type": "Civil",
+        "subject": "Acţiuni privind controlul legalităţii actelor administrative ale\nMunicipiului Chișinău",
+        "number": "02-3a-22181-04122014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=41B24D6A-0674-E511-8A1B-005056A5D154\u0026case_title=Dosar-02-4r-18544-30092015-467\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "07-10-2015",
+        "court": "Curtea de Apel Chişinău",
+        "title": "Chirtoacă Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 318. Neexecutarea hotarîrii instantei de judecata ",
+        "number": "02-4r-18544-30092015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F6DEC13D-396C-E511-8A1B-005056A5D154\u0026case_title=Dosar-02-2r-14487-23072015-514\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-10-2015",
+        "court": "Curtea de Apel Chişinău",
+        "title": " Mesina Vasili vs Mitu Dorin",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "02-2r-14487-23072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7B2B86E4-6871-E511-8A1B-005056A5D154\u0026case_title=Dosar-02-2r-14487-23072015-567\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-10-2015",
+        "court": "Curtea de Apel Chişinău",
+        "title": " Mesina Vasili vs Mitu Dorin",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "02-2r-14487-23072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C9317F9F-366C-E511-8A1B-005056A5D154\u0026case_title=Dosar-02-3r-15389-06082015-574\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-10-2015",
+        "court": "Curtea de Apel Chişinău",
+        "title": "Catanoi Dorin vs Inspectoratul General de Politie MAI",
+        "type": "Civil",
+        "subject": "Acţiuni privind controlul legalităţii actelor administrative ale\nministerelor",
+        "number": "02-3r-15389-06082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=55DE4CA7-1E61-E511-B888-005056A5D154\u0026case_title=Dosar-02-2r-13464-10072015-1223\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Curtea de Apel Chişinău",
+        "title": "Calinev Iuri vs Pascal Dorin",
+        "type": "Civil",
+        "subject": "Alte actiuni",
+        "number": "02-2r-13464-10072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B80018CA-E95A-E511-B888-005056A5D154\u0026case_title=Dosar-02-2r-13868-16072015-1632\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Curtea de Apel Chişinău",
+        "title": " Harti Valentina vs Botnarenco Dorin",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "02-2r-13868-16072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=632988B9-3C61-E511-B888-005056A5D154\u0026case_title=Dosar-02-4r-11578-14062015-1842\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Curtea de Apel Chişinău",
+        "title": "Chirtoacă Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 318. Neexecutarea hotarîrii instantei de judecata ",
+        "number": "02-4r-11578-14062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=06F1B12E-3D61-E511-B888-005056A5D154\u0026case_title=Dosar-02-4r-13201-06072015-1858\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Curtea de Apel Chişinău",
+        "title": "Chirtoacă Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 318. Neexecutarea hotarîrii instantei de judecata ",
+        "number": "02-4r-13201-06072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=337C0A08-7937-E511-B888-005056A5D154\u0026case_title=Dosar-39-4-1636-13072015-249\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "31-07-2015",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": "Vrabie Dorin Petru",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 367. Deteriorarea sau nimicirea cu intentie ori pierderea din neglijenta a documentelor de evidenta militara ",
+        "number": "39-4-1636-13072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7C5059BE-AF70-E411-8E3E-005056A5D154\u0026case_title=Dosar-39-2p/o-2216-18112014-1385\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-11-2014",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": "BC\u0026quot;Moldova Agroindbank\u0026quot;\u0026quot; vs Gangan Dorin",
+        "type": "Civil",
+        "subject": "Litigii aparute din contracte si operatiuni bancare",
+        "number": "39-2p/o-2216-18112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=948258BD-D6D9-E311-9DF1-005056A5D154\u0026case_title=Dosar-39-2-401-27022014-2191\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-05-2014",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": "Primăria Saharna Nouă vs Gonciaruc Dorina",
+        "type": "Civil",
+        "subject": "Privarea de  drepturi a parintilor",
+        "number": "39-2-401-27022014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C3B56A1D-7BEC-E311-8E3E-005056A5D154\u0026case_title=Dosar-39-2-401-27022014-2192\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "12-05-2014",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": "Primăria Saharna Nouă vs Gonciaruc Dorina",
+        "type": "Civil",
+        "subject": "Privarea de  drepturi a parintilor",
+        "number": "39-2-401-27022014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B19FCFBB-5283-E311-9DF1-005056A5D154\u0026case_title=Dosar-39-1-36-09012014-2654\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-01-2014",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": "Moiseenco Dorin Vasile",
+        "type": "Penal",
+        "subject": "Rapirea unei persoane (art. 164)",
+        "number": "39-1-36-09012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=81725099-F471-E311-9DF1-005056A5D154\u0026case_title=Dosar-39-2-1343-08082013-2704\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-12-2013",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": " DASPF Rezina,în interesul Goncearuc Dorina vs  OSC Rezina",
+        "type": "Civil",
+        "subject": "Dosare de gestiune speciala privind constatarea unor fapte care au valoare juridica",
+        "number": "39-2-1343-08082013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5AA21363-7109-E311-AE70-005056A5D154\u0026case_title=Dosar-39-2-1318-02082013-3269\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-08-2013",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": "Gonciaruc Mihail vs Gonciaruc Dorina",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "39-2-1318-02082013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=B709C1E7-2A79-E311-9DF1-005056A5D154\u0026case_title=Dosar-39-1-1206-10072013-3318\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": "Suşiţchi Dorin Mihail",
+        "type": "Penal",
+        "subject": "Declaratia mincinoasa, concluzia falsa sau traducerea incorecta (art. 312)",
+        "number": "39-1-1206-10072013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F1D42C9B-1FE2-E211-9393-005056A5D154\u0026case_title=Dosar-39-2-1032-10062013-3448\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "01-07-2013",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": "Rotari Alina vs Rotari Dorin",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "39-2-1032-10062013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=887A8545-6A38-E211-A711-00215AE0E40F\u0026case_title=Dosar-39-2-2099-31102012-4206\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-11-2012",
+        "court": "Judecătoria Rezina/Ribnita",
+        "title": "Coşeleova Ţîmbalist  Dorina vs Coşelev Vladimir",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "39-2-2099-31102012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=AE4A0FE3-6607-E411-8E3E-005056A5D154\u0026case_title=Dosar-43-4-1077-11062014-973\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-07-2014",
+        "court": "Judecătoria Singerei",
+        "title": "Sîngereanu  Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 55. Încălcarea legislaţiei muncii, a legislaţiei cu privire la securitatea şi la sănătatea în muncă",
+        "number": "43-4-1077-11062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=23B637B5-EBEA-E311-8E3E-005056A5D154\u0026case_title=Dosar-43-4-947-17052014-1033\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-05-2014",
+        "court": "Judecătoria Singerei",
+        "title": "Coroșanu  Dorin Aurel",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 242. Încalcarea regulilor de circulatie rutiera soldata cu deteriorarea bunurilor materiale ori cu cauzarea de leziuni corporale usoare ",
+        "number": "43-4-947-17052014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=01C4FC1C-3DAF-E311-9DF1-005056A5D154\u0026case_title=Dosar-43-2-251-14022014-1218\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "19-03-2014",
+        "court": "Judecătoria Singerei",
+        "title": "Gîrlovan Dorin vs Gîrlovan Aliona",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "43-2-251-14022014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=71F7C500-0894-E311-9DF1-005056A5D154\u0026case_title=Dosar-43-2-1581-12112013-1368\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "31-01-2014",
+        "court": "Judecătoria Singerei",
+        "title": "Paladi Mariana vs Ungureanu Dorin",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "43-2-1581-12112013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=07B5BACF-5783-E311-9DF1-005056A5D154\u0026case_title=Dosar-43-2-1316-20092013-1420\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Singerei",
+        "title": "Gheorghiţă Dorina Nicolae vs Gheorghiţă Lilian",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "43-2-1316-20092013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=517FCAD4-5966-E311-9DF1-005056A5D154\u0026case_title=Dosar-43-2p/o-1831-14122013-1511\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Singerei",
+        "title": "CNAM Agenția Teritorială Bălți vs Cristal Dorin Ion",
+        "type": "Civil",
+        "subject": "Dosare examinate în procedura în ordonanta ",
+        "number": "43-2p/o-1831-14122013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=6BBD660A-AA61-E311-9DF1-005056A5D154\u0026case_title=Dosar-43-4-1507-29102013-1546\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-12-2013",
+        "court": "Judecătoria Singerei",
+        "title": "Danilescu Dorin Gheorghe",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 233. Conducerea vehiculului în stare de ebrietate produsa de alcool, predarea conducerii lui catre o persoana care se afla în stare de ebrietate produsa de alcool sau de alte substante ",
+        "number": "43-4-1507-29102013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=655F5225-3757-E311-AD4B-005056A5D154\u0026case_title=Dosar-43-2-1510-30102013-1585\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Singerei",
+        "title": "Podlisnic Lăcrămioara vs Podlisnic Dorin Valeriu",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "43-2-1510-30102013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=6C8BD117-644A-E511-B888-005056A5D154\u0026case_title=Dosar-43-2p/o-2070-22082015-2356\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-08-2015",
+        "court": "Judecătoria Singerei",
+        "title": "ÎCS„Easy Credit„ S.R.L vs Motruc Dorin Piotr",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "43-2p/o-2070-22082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C00FE39B-9162-E511-B888-005056A5D154\u0026case_title=Dosar-47-4-1531-01092015-114\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Stefan_voda",
+        "title": "Tiutiunenco Eduard Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Demersuri privind schimbarea masurii de pedeapsa",
+        "number": "47-4-1531-01092015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=65F03413-B761-E511-B888-005056A5D154\u0026case_title=Dosar-47-1-2067-18112014-115\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Stefan_voda",
+        "title": "Vorfolomei Dorina; Cravcenco  Ludmila",
+        "type": "Penal",
+        "subject": "Jaful (art. 187)",
+        "number": "47-1-2067-18112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D34B2496-BF20-E511-B888-005056A5D154\u0026case_title=Dosar-47-3-1137-30062015-355\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-07-2015",
+        "court": "Judecătoria Stefan_voda",
+        "title": "Președinte CE s. Popeasca Zmeu  Dorina",
+        "type": "Civil",
+        "subject": "Actiuni privind controlul legalitatii hotarîrilor Comisiei Electorale Centrale",
+        "number": "47-3-1137-30062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=6254542C-731A-E511-B888-005056A5D154\u0026case_title=Dosar-47-3-1061-19062015-396\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-06-2015",
+        "court": "Judecătoria Stefan_voda",
+        "title": "Președinte CE Zmeu Dorina sat Popeasca",
+        "type": "Civil",
+        "subject": "Actiuni privind controlul legalitatii hotarîrilor Comisiei Electorale Centrale",
+        "number": "47-3-1061-19062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A5488AF3-8F03-E511-B888-005056A5D154\u0026case_title=Dosar-47-2-766-05052015-558\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-05-2015",
+        "court": "Judecătoria Stefan_voda",
+        "title": "IM Moldcell SA vs Curcovschi Dorin",
+        "type": "Civil",
+        "subject": "Actiuni aparute din contractele de antrepriza si prestari servicii",
+        "number": "47-2-766-05052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=61B3EC66-BCFE-E411-B888-005056A5D154\u0026case_title=Dosar-47-4-763-05052015-590\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Stefan_voda",
+        "title": "Fală Dorin Iurii",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 366. Neîndeplinirea îndatoririlor privind evidenta militara ",
+        "number": "47-4-763-05052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F61F31C7-18E4-E411-B888-005056A5D154\u0026case_title=Dosar-47-2-383-04032015-754\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-04-2015",
+        "court": "Judecătoria Stefan_voda",
+        "title": "Proscurchin Dorina Anatolie vs Proscurchin Andrei Anatolie",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "47-2-383-04032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=485AB171-6F04-E511-B888-005056A5D154\u0026case_title=Dosar-47-4d-410-09032015-874\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Stefan_voda",
+        "title": "Malcic Dorin Andrei",
+        "type": "Contravenţie administrativă",
+        "subject": "Demersuri privind schimbarea masurii de pedeapsa",
+        "number": "47-4d-410-09032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5FDF8069-D7CE-E411-B888-005056A5D154\u0026case_title=Dosar-47-4d-410-09032015-875\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Stefan_voda",
+        "title": "Malcic Dorin Andrei",
+        "type": "Contravenţie administrativă",
+        "subject": "Demersuri privind schimbarea masurii de pedeapsa",
+        "number": "47-4d-410-09032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7C081BCE-B4C0-E411-8112-005056A5D154\u0026case_title=Dosar-47-4d-290-17022015-953\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Stefan_voda",
+        "title": "Curcovschii Dorin Petru",
+        "type": "Contravenţie administrativă",
+        "subject": "Demersuri privind schimbarea masurii de pedeapsa",
+        "number": "47-4d-290-17022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=FB5D4D37-6F51-E511-A983-005056A5FB1A\u0026case_title=Dosar-09-2-6677-08072015-822\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "17-07-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Derevenco Dorina vs Derevenco Mihail",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "09-2-6677-08072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=26E9BDE0-7F2C-E511-A983-005056A5FB1A\u0026case_title=Dosar-09-2-6677-08072015-823\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "17-07-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Derevenco Dorina vs Derevenco Mihail",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "09-2-6677-08072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=EA03F79A-F50D-E511-A983-005056A5FB1A\u0026case_title=Dosar-09-5r-2416-24032015-1350\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-05-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Șaitan Dorin Vasile",
+        "type": "Contravenţie administrativă",
+        "subject": "Cauze contravenţionale examinate de organele de specialitate în domeniul transporturilor",
+        "number": "09-5r-2416-24032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=2A9632A0-B4F4-E411-A983-005056A5FB1A\u0026case_title=Dosar-09-2-1694-02032015-1700\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-05-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Procopovici Nina vs Zubatîi Dorin",
+        "type": "Civil",
+        "subject": "Litigii privind executarea obligatiilor",
+        "number": "09-2-1694-02032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C081F472-B8EC-E411-A983-005056A5FB1A\u0026case_title=Dosar-09-2-949-06022015-1862\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-04-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Bejereanu Inga vs Bejereanu Dorin",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "09-2-949-06022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C82FD742-59EA-E411-A983-005056A5FB1A\u0026case_title=Dosar-09-1-2310-18052012-1885\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-04-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Scorpan Dorin Gheorghe",
+        "type": "Penal",
+        "subject": "Circulatia ilegala a substantelor narcotice, psihotrope sau a analoagelor lor fara scop de înstrainare (art. 217)",
+        "number": "09-1-2310-18052012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=6A208546-4ADF-E411-A983-005056A5FB1A\u0026case_title=Dosar-09-1-2474-25032015-2019\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-04-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Creciun Dorin Marin",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "09-1-2474-25032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=897D73A3-A1D6-E411-A983-005056A5FB1A\u0026case_title=Dosar-09-2-1860-06032015-2251\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-03-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Codrean Dorin Gheorghe vs Codrean Gheorghe Gheorghe",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "09-2-1860-06032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=6C2B7995-38D1-E411-A983-005056A5FB1A\u0026case_title=Dosar-09-5r-1071-24022014-2361\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-03-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Motruc Dorin Petru",
+        "type": "Contravenţie administrativă",
+        "subject": "Cauze contravenţionale examinate de organele de specialitate în domeniul transporturilor",
+        "number": "09-5r-1071-24022014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DC6D9A53-0FEB-E411-A983-005056A5FB1A\u0026case_title=Dosar-09-5r-1254-16022015-2409\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-03-2015",
+        "court": "Judecătoria Bălţi",
+        "title": "Rusu Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Cauze contravenţionale examinate de organele de specialitate în domeniul transporturilor",
+        "number": "09-5r-1254-16022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D1A7B97E-1764-E411-8956-005056A5FB1A\u0026case_title=Dosar-10-2-871-15102014-462\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "04-11-2014",
+        "court": "Judecătoria Basarabeasca",
+        "title": "Lupașcu Dorina Ion vs Lupașcu Ion Grigore - încasarea pensiei de întreținere",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "10-2-871-15102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3DA5C93A-1157-E511-B888-005056A5D154\u0026case_title=Dosar-21-3-1500-03082015-184\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-09-2015",
+        "court": "Judecătoria Cimislia",
+        "title": "Prisacari Dorina vs Direcția Asistență Socială și Protecția Familiei privind anularea deciziei nr.526 din 01.07.2015",
+        "type": "Civil",
+        "subject": "Actiuni privind controlul legalitatii actelor administrative ale autoritatilor publice din comuna, sat, oras",
+        "number": "21-3-1500-03082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DCDD5B6A-D36D-E511-8A1B-005056A5D154\u0026case_title=Dosar-21-3-1500-03082015-185\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-09-2015",
+        "court": "Judecătoria Cimislia",
+        "title": "Prisacari Dorina vs Direcția Asistență Socială și Protecția Familiei privind anularea deciziei nr.526 din 01.07.2015",
+        "type": "Civil",
+        "subject": "Actiuni privind controlul legalitatii actelor administrative ale autoritatilor publice din comuna, sat, oras",
+        "number": "21-3-1500-03082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=32ED23A9-BF2E-E511-B888-005056A5D154\u0026case_title=Dosar-21-2-989-27052014-391\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-07-2015",
+        "court": "Judecătoria Cimislia",
+        "title": "Vameș  Sergiu Mihail,  Vameș Elena, Vameș Dorin Serghei vs Zmeu Sergiu Pavel privind recuperarea prejudiciului material și moral.  ",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului material, datoriei, sumei",
+        "number": "21-2-989-27052014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=92ECE0C8-6C0B-E511-B888-005056A5D154\u0026case_title=Dosar-21-2-872-12052015-566\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-06-2015",
+        "court": "Judecătoria Cimislia",
+        "title": "Bunescu Silvia vs Bunescu Dorin, privind desfacerea căsătoriei și determinarea domiciliului copilului minor.  ",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "21-2-872-12052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3B8EF1C9-B65A-E411-8E3E-005056A5D154\u0026case_title=Dosar-21-2-50-10012014-1264\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-10-2014",
+        "court": "Judecătoria Cimislia",
+        "title": "Prisacari Dorina vs Prisacari Mihail, privind desfacerea căsătoriei.",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "21-2-50-10012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=2DC8C3EF-9366-E411-8E3E-005056A5D154\u0026case_title=Dosar-21-2-50-10012014-1265\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-10-2014",
+        "court": "Judecătoria Cimislia",
+        "title": "Prisacari Dorina vs Prisacari Mihail, privind desfacerea căsătoriei.",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "21-2-50-10012014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=177C5C5E-3359-E411-8E3E-005056A5D154\u0026case_title=Dosar-21-2-1809-02092014-1275\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "21-10-2014",
+        "court": "Judecătoria Cimislia",
+        "title": "Blajă Dorina vs Enache Andrei, privind încasarea forțată a pensiei alimentare.",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "21-2-1809-02092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3A7AB3C3-5D3E-E411-8E3E-005056A5D154\u0026case_title=Dosar-21-1-924-16052014-1462\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "17-09-2014",
+        "court": "Judecătoria Cimislia",
+        "title": "Ninicu Dorin Vladimir art.201/1 al.2 lit.a CP RM",
+        "type": "Penal",
+        "subject": "Violenţa în familie (art. 201[1])",
+        "number": "21-1-924-16052014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E1EDBD5E-4C66-E311-9DF1-005056A5D154\u0026case_title=Dosar-21-1-1627-21102013-2205\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-12-2013",
+        "court": "Judecătoria Cimislia",
+        "title": "Safaleru Dorin Vlas  art.264 al.4 CP RM.",
+        "type": "Penal",
+        "subject": "Incalcarea regulilor de securitate a circulatiei sau de exploatare a mijloacelor de transport de catre persoana care conduce mijlocul de transport (art. 264)",
+        "number": "21-1-1627-21102013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=03B05210-C8AF-E111-9EB7-00215AE0D4F7\u0026case_title=Dosar-21-4d-463-21042012-4039\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Cimislia",
+        "title": "Demers în privinţa lui Raeţchi Dorin Mihail privind înlocuirea sancţiunii contravenţionale",
+        "type": "Contravenţie administrativă",
+        "subject": "Înlocuirea sancţiunii administrative",
+        "number": "21-4d-463-21042012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1C02613C-B066-E511-A983-005056A5FB1A\u0026case_title=Dosar-24-2-1813-18082015-87\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-09-2015",
+        "court": "Judecătoria Criuleni",
+        "title": "Mîrzenco  Ecaterina Petru vs Mîrzenco Dorin Mihail, desfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "24-2-1813-18082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1BEF16EA-CB18-E511-A983-005056A5FB1A\u0026case_title=Dosar-24-2-744-08042015-444\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-06-2015",
+        "court": "Judecătoria Criuleni",
+        "title": "Titei Dorin vs Titei Svetlana cu privire la desfacerea căsătoriei",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "24-2-744-08042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C3B59748-014B-E511-A983-005056A5FB1A\u0026case_title=Dosar-24-2-793-21042015-488\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-06-2015",
+        "court": "Judecătoria Criuleni",
+        "title": "Sarchisov Simion Iacob vs Malțev (Midori) Dorina Pahomii cu privire la scutirea de la achitarea restanței la pensie de întreținerea copilului minor",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "24-2-793-21042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=39662E06-2A14-E511-A983-005056A5FB1A\u0026case_title=Dosar-24-2-793-21042015-490\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-06-2015",
+        "court": "Judecătoria Criuleni",
+        "title": "Sarchisov Simion Iacob vs Malțev (Midori) Dorina Pahomii cu privire la scutirea de la achitarea restanței la pensie de întreținerea copilului minor",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "24-2-793-21042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=CC31EA9D-4304-E511-A983-005056A5FB1A\u0026case_title=Dosar-24-1-893-30042015-594\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-05-2015",
+        "court": "Judecătoria Criuleni",
+        "title": "Sclifos Dorin Gheorghe în comiterea infracțiunii prevăzute de art. 201 (prim) al. 1 Cod penal RM",
+        "type": "Penal",
+        "subject": "Violenţa în familie (art. 201[1])",
+        "number": "24-1-893-30042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=52246E25-4C6A-E411-8956-005056A5FB1A\u0026case_title=Dosar-24-2-1422-01082014-1524\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Criuleni",
+        "title": "Ursache Tatiana Stepan vs Ursachi Dorin Mihail cu privire la desfacerea căsătoriei, aprecierea domiciliului copilului și încasarea pensiei de întreținere",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "24-2-1422-01082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=0EE0D89B-BE5D-E411-8956-005056A5FB1A\u0026case_title=Dosar-24-4-1250-08072014-1605\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-10-2014",
+        "court": "Judecătoria Criuleni",
+        "title": "Danuța Dorin Constatntin, art.243",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 243. Parasirea locului în care s-a produs accidentul rutier ",
+        "number": "24-4-1250-08072014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=48E4C24A-C33F-E411-8956-005056A5FB1A\u0026case_title=Dosar-24-1-1441-04082014-1896\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "19-09-2014",
+        "court": "Judecătoria Criuleni",
+        "title": "Danuța Dorin Constantin în baza  art. 264 /1 al. 4 CP",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "24-1-1441-04082014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A523D968-0408-E411-8956-005056A5FB1A\u0026case_title=Dosar-24-4-1023-05062014-1996\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-07-2014",
+        "court": "Judecătoria Criuleni",
+        "title": "Leanca Dorin, art.294 alin.1",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 294[1]. Încălcarea normelor de calculare şi de plată a contribuţiilor de asigurări sociale de stat obligatorii",
+        "number": "24-4-1023-05062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A86738E9-3EC6-E311-844C-005056A5FB1A\u0026case_title=Dosar-24-2-1315-09102012-2384\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "17-04-2014",
+        "court": "Judecătoria Criuleni",
+        "title": "Colesnicenco Galina , Stegărescu Larisa, Guştiuc Dorin, Fostica Gheorghe, Bratu Alexandru, Dîrul Marina, Branişte Tatiana ivs SC CCM Meteorconstruct SRL cu privire la încasarea prejudiciulkui patrimonial",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "24-2-1315-09102012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=78F32F4C-D85D-E511-A983-005056A5FB1A\u0026case_title=Dosar-33-2-2506-13082015-156\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-09-2015",
+        "court": "Judecătoria Ialoveni",
+        "title": "Lupu Elena Grigore vs Lupu Dorin Constantin",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "33-2-2506-13082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=810FC95C-2A47-E511-A983-005056A5FB1A\u0026case_title=Dosar-33-2-2448-10082015-224\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-08-2015",
+        "court": "Judecătoria Ialoveni",
+        "title": "Vutcariova Maria vs NP Ganta Dorina",
+        "type": "Civil",
+        "subject": "Moştenirea",
+        "number": "33-2-2448-10082015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F622EA38-862F-E511-A983-005056A5FB1A\u0026case_title=Dosar-33-2-1338-07052015-376\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "21-07-2015",
+        "court": "Judecătoria Ialoveni",
+        "title": "Vutcariova Maria vs NP Ganta Dorina",
+        "type": "Civil",
+        "subject": "Dosare de gestiune speciala privind constatarea unor fapte care au valoare juridica",
+        "number": "33-2-1338-07052015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1A14EDD7-EF29-E511-A983-005056A5FB1A\u0026case_title=Dosar-33-2-1245-29042015-735\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "14-07-2015",
+        "court": "Judecătoria Ialoveni",
+        "title": "Purcalabu Dorina vs Purcalabu Mihail",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "33-2-1245-29042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=DEC96775-4B75-E411-8956-005056A5FB1A\u0026case_title=Dosar-33-4-2967-03102014-1732\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-11-2014",
+        "court": "Judecătoria Ialoveni",
+        "title": "Chira Dorin Igor",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 367. Deteriorarea sau nimicirea cu intentie ori pierderea din neglijenta a documentelor de evidenta militara ",
+        "number": "33-4-2967-03102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=46943E47-7D52-E311-966A-005056A5FB1A\u0026case_title=Dosar-33-2-1242-27062013-3565\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "21-11-2013",
+        "court": "Judecătoria Ialoveni",
+        "title": "VASILIŢA VALERIU vs Notarul Dorina Ganta",
+        "type": "Civil",
+        "subject": "Moştenirea",
+        "number": "33-2-1242-27062013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=83C46E09-C58E-E111-9EED-00215AE003FF\u0026case_title=Dosar-33-2-41-05012012-5662\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "17-04-2012",
+        "court": "Judecătoria Ialoveni",
+        "title": "IOVU DORINA VLADIMIR vs IOVU ŞTEFAN ION",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "33-2-41-05012012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9BE6BD96-D053-E111-A00C-00215AE003FF\u0026case_title=Dosar-33-2-1530-12082011-5821\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-02-2012",
+        "court": "Judecătoria Ialoveni",
+        "title": "Grosu Dorina Ion vs Grosu Victor Ion",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "33-2-1530-12082011"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=03B3B050-67BE-E011-9514-00215AE003FF\u0026case_title=Dosar-33-2-1379-28072011-6399\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Ialoveni",
+        "title": "Fruză Dorina Andrei vs Fruză Eugeniu Nicolae",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "33-2-1379-28072011"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=31BBD81A-6DC2-E011-8699-00215AE003FF\u0026case_title=Dosar-33-4-1251-12072011-6409\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "09-08-2011",
+        "court": "Judecătoria Ialoveni",
+        "title": "Chirtoacă  Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Neexecutarea hotarîrilor judecatoresti",
+        "number": "33-4-1251-12072011"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E25E5C31-DCA6-E411-8112-005056A5D154\u0026case_title=Dosar-53-1-700-23102014-460\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "28-01-2015",
+        "court": "Judecătoria Dubasari",
+        "title": "Cotoman Dorina Vitalie - arrt. 186 al.2 lit.c) CP",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "53-1-700-23102014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=79BC09D8-E890-E411-8112-005056A5D154\u0026case_title=Dosar-53-4-876-22122014-490\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "30-12-2014",
+        "court": "Judecătoria Dubasari",
+        "title": "Jidovanu Dorin - art.art.263 alin.2 și 294 alin.1 Cod Contravențional",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 263. Desfasurarea ilegala a activitatii de întreprinzator ",
+        "number": "53-4-876-22122014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=FCA0A37D-0B39-E011-B168-00215AE003EF\u0026case_title=Dosar-08-4-282-28012011-3344\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-02-2011",
+        "court": "Judecătoria Anenii Noi",
+        "title": "Fortuna Dorin Tudor",
+        "type": "Contravenţie administrativă",
+        "subject": "Incalcarea legislatiei muncii",
+        "number": "08-4-282-28012011"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=EFD6B851-B406-E011-8600-00215AE003EF\u0026case_title=Dosar-08-2-2884-10122010-3681\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-12-2010",
+        "court": "Judecătoria Anenii Noi",
+        "title": "SA\u0026quot;Moldtelecom\u0026quot; vs Foros Dorin Ghenadi",
+        "type": "Civil",
+        "subject": "Litigii privind executarea obligatiilor",
+        "number": "08-2-2884-10122010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3E1C9208-9D2F-E111-91CF-00215AE003EF\u0026case_title=Dosar-08-2-1948-09092010-3924\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "26-12-2011",
+        "court": "Judecătoria Anenii Noi",
+        "title": "Arutiunova Ala Ghenadie vs Zelenco Dorina",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "08-2-1948-09092010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3A81D302-82DE-DF11-8600-00215AE003EF\u0026case_title=Dosar-08-4-1686-18082010-4319\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "09-09-2010",
+        "court": "Judecătoria Anenii Noi",
+        "title": "Durnea Dorin Oleg",
+        "type": "Contravenţie administrativă",
+        "subject": "Contravenţii în domeniul construcţiilor",
+        "number": "08-4-1686-18082010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=EDA4A0FE-CFA9-DF11-ABA0-00215AE003EF\u0026case_title=Dosar-08-1-1269-16072010-4460\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "17-08-2010",
+        "court": "Judecătoria Anenii Noi",
+        "title": "Calmic Dorina vALENTIN",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "08-1-1269-16072010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1F45D75B-486E-DF11-A04C-00215AE003EF\u0026case_title=Dosar-08-2-827-17052010-4857\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-06-2010",
+        "court": "Judecătoria Anenii Noi",
+        "title": "Rebdev Dorin vs Rebdev Oxana",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "08-2-827-17052010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1B5B6845-3E67-DF11-A04C-00215AE003EF\u0026case_title=Dosar-08-2-69-19012010-4906\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-05-2010",
+        "court": "Judecătoria Anenii Noi",
+        "title": "Iacob Dorin Evgheni vs Staver Alexandru Vasile",
+        "type": "Civil",
+        "subject": "Actiuni aparute din contractele de vînzare-cumparare",
+        "number": "08-2-69-19012010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D232D9CA-CB17-DF11-890E-00215AE003EF\u0026case_title=Dosar-08-2-24-13012010-5356\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Anenii Noi",
+        "title": "BC \u0026quot;MOLDINCONBANk\u0026quot;vs Iurcovschi Dorina",
+        "type": "Civil",
+        "subject": "Litigii privind executarea obligatiilor",
+        "number": "08-2-24-13012010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9A09334C-4B00-E511-B888-005056A5D154\u0026case_title=Dosar-14-4-1806-27022015-1625\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-05-2015",
+        "court": "Judecătoria Buiucani",
+        "title": "Chirtoacă Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 318. Neexecutarea hotarîrii instantei de judecata ",
+        "number": "14-4-1806-27022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5C114810-403B-E511-B888-005056A5D154\u0026case_title=Dosar-14-2-2987-03042015-1668\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "02-07-2015",
+        "court": "Judecătoria Buiucani",
+        "title": "Ursache Dorin vs Sigalus Alexandr",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "14-2-2987-03042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=18BCE08F-EAFA-E411-B888-005056A5D154\u0026case_title=Dosar-14-1-9309-15092014-1680\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-05-2015",
+        "court": "Judecătoria Buiucani",
+        "title": "Bădărău Dorin Vasile",
+        "type": "Penal",
+        "subject": "Escrocheria (art .190)",
+        "number": "14-1-9309-15092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=15101853-7E3B-E511-B888-005056A5D154\u0026case_title=Dosar-14-1-1900-03032015-1914\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-08-2015",
+        "court": "Judecătoria Buiucani",
+        "title": "Bivol Dorin Mihail",
+        "type": "Penal",
+        "subject": "Conducerea mijlocului de transport în stare de ebrietate alcoolica cu grad avansat sau în stare de ebrietate produsa de alte substante (art. 264[1])",
+        "number": "14-1-1900-03032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=CC8F725E-EFE4-E411-B888-005056A5D154\u0026case_title=Dosar-14-4-2247-13032015-1933\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Buiucani",
+        "title": "Căuș Dorin Ion",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 370. Eschivarea de la încorporare în serviciul civil (de alternativa) ",
+        "number": "14-4-2247-13032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1E067156-04DA-E411-B888-005056A5D154\u0026case_title=Dosar-14-2-2040-09032015-2139\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "31-03-2015",
+        "court": "Judecătoria Buiucani",
+        "title": "Efros Dorina vs Zolotco Iulia",
+        "type": "Civil",
+        "subject": "Acțiuni privind revendicarea, transmiterea silită a bunurilor ",
+        "number": "14-2-2040-09032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4ED19308-CC2B-E511-B888-005056A5D154\u0026case_title=Dosar-14-2-473-20012015-2281\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "13-05-2015",
+        "court": "Judecătoria Buiucani",
+        "title": "Easy Credit SRL vs Zaltur Dorin",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "14-2-473-20012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3D85BF6C-0EA3-E411-8112-005056A5D154\u0026case_title=Dosar-14-2-10981-05112014-2995\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-01-2015",
+        "court": "Judecătoria Buiucani",
+        "title": "Efros Dorina vs Zolotco Iulia",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea datoriei",
+        "number": "14-2-10981-05112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=07A8690D-5580-E411-8112-005056A5D154\u0026case_title=Dosar-14-4-11060-07112014-3439\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "10-12-2014",
+        "court": "Judecătoria Buiucani",
+        "title": "Beregoi Dorin Leonid",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 366. Neîndeplinirea îndatoririlor privind evidenta militara ",
+        "number": "14-4-11060-07112014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=5A820672-0F77-E411-8E3E-005056A5D154\u0026case_title=Dosar-14-1-2477-12032014-3625\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "28-11-2014",
+        "court": "Judecătoria Buiucani",
+        "title": "Lupașco Dorin Filip",
+        "type": "Penal",
+        "subject": "Hărțuirea sexuală (art. 173)",
+        "number": "14-1-2477-12032014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9A0D7C0B-C241-E511-B888-005056A5D154\u0026case_title=Dosar-18-4-1293-04062015-228\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Causeni",
+        "title": "Mereuță Dorin Ion-art. 336 CC",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 336. Nesubordonarea cu rea-vointa dispozitiei sau cererii legitime a colaboratorului organelor de ocrotire a normelor de drept ",
+        "number": "18-4-1293-04062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=997C6365-2E34-E511-B888-005056A5D154\u0026case_title=Dosar-18-2-1378-12062015-303\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "24-07-2015",
+        "court": "Judecătoria Causeni",
+        "title": "Donciu Dorina vs Donciu Dumitru Andrei desfacerea căsătoriei și determ. cop.min.",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "18-2-1378-12062015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3F1C6E67-70F5-E411-B888-005056A5D154\u0026case_title=Dosar-18-2-634-16032015-584\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-05-2015",
+        "court": "Judecătoria Causeni",
+        "title": "CP ”Apicultorul” vs Grinco Dorin Gheorghe încasarea prejudiciului cauzat prin  contravenție",
+        "type": "Civil",
+        "subject": "Acțiuni privind încasarea prejudiciului material, datoriei, sumei",
+        "number": "18-2-634-16032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=BAC6B85E-55B7-E411-8112-005056A5D154\u0026case_title=Dosar-18-4-205-29012015-929\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Causeni",
+        "title": "Mereuță Dorin Ion-art. 294 CC",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 294. Încălcarea regulilor de prezentare a declaraţiilor privind calcularea şi utilizarea contribuţiilor de asigurări sociale de stat obligatorii şi a regulilor de folosire a codurilor personale de asigurări sociale",
+        "number": "18-4-205-29012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=A67D929E-E3CE-E411-B888-005056A5D154\u0026case_title=Dosar-18-4-205-29012015-930\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Causeni",
+        "title": "Mereuță Dorin Ion-art. 294 CC",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 294. Încălcarea regulilor de prezentare a declaraţiilor privind calcularea şi utilizarea contribuţiilor de asigurări sociale de stat obligatorii şi a regulilor de folosire a codurilor personale de asigurări sociale",
+        "number": "18-4-205-29012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=35D0DB07-B896-E211-8C91-00215AE0E437\u0026case_title=Dosar-18-1-288-11022013-2096\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "27-03-2013",
+        "court": "Judecătoria Causeni",
+        "title": "Chioibaş Mihail Petru, Olan Mircea Ion şi Barbacari Dorin Victor",
+        "type": "Penal",
+        "subject": "Tîlharia (art. 188)",
+        "number": "18-1-288-11022013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=6D5D57F2-BA8A-E111-9F65-00215AE0E437\u0026case_title=Dosar-18-1-2109-07122011-2399\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "20-04-2012",
+        "court": "Judecătoria Causeni",
+        "title": "Cuciurcă Dorin Gheorghe",
+        "type": "Penal",
+        "subject": "Furtul (art. 186)",
+        "number": "18-1-2109-07122011"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=99C6FD76-C457-E111-A960-00215AE0E437\u0026case_title=Dosar-18-2-1701-12102011-2580\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "09-02-2012",
+        "court": "Judecătoria Causeni",
+        "title": "Verdîş Dorina Petru vs Verdîş Iurii Mihai",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "18-2-1701-12102011"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1F841C7D-121F-E111-8161-00215AE0E437\u0026case_title=Dosar-18-2-1336-15082011-2835\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Causeni",
+        "title": "AEÎ\u0026quot;Valea Podului\u0026quot; vs Ceban Dorina Vasile",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "18-2-1336-15082011"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=15812417-49EB-DF11-9936-00215AE0E437\u0026case_title=Dosar-18-2p/o-2135-19102010-3587\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Causeni",
+        "title": "SA`Moldtelecom` vs Catruc Dorina",
+        "type": "Civil",
+        "subject": "Alte materiale",
+        "number": "18-2p/o-2135-19102010"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1B61BDDF-B277-E511-8A1B-005056A5D154\u0026case_title=Dosar-32-4-2866-08092015-20\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-10-2015",
+        "court": "Judecătoria Hincesti",
+        "title": "Dorin Igor Ștefan - art.233 al.1 CCRM",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 233. Conducerea vehiculului în stare de ebrietate produsa de alcool, predarea conducerii lui catre o persoana care se afla în stare de ebrietate produsa de alcool sau de alte substante ",
+        "number": "32-4-2866-08092015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=3E01E080-765B-E511-B888-005056A5D154\u0026case_title=Dosar-32-2-861-24032015-264\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "15-09-2015",
+        "court": "Judecătoria Hincesti",
+        "title": "Dimineț Tatiana Ion vs Balan Dorin Dumitru",
+        "type": "Civil",
+        "subject": "Alte acţiuni",
+        "number": "32-2-861-24032015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=1DD0FAB1-7E45-E511-B888-005056A5D154\u0026case_title=Dosar-32-2-2316-22072015-381\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "18-08-2015",
+        "court": "Judecătoria Hincesti",
+        "title": "Botnaru Dorin vs Botnaru Mariana",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "32-2-2316-22072015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=BA385F82-2229-E511-B888-005056A5D154\u0026case_title=Dosar-32-5r-1191-27042015-559\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "08-07-2015",
+        "court": "Judecătoria Hincesti",
+        "title": "Păduraru Dorin",
+        "type": "Contravenţie administrativă",
+        "subject": "Cauze contravenţionale examinate de Serviciul Vamal",
+        "number": "32-5r-1191-27042015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=25812BF6-6CED-E411-B888-005056A5D154\u0026case_title=Dosar-32-2-403-16022015-1010\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "23-04-2015",
+        "court": "Judecătoria Hincesti",
+        "title": "ÎM\u0026quot;Credit Rapid\u0026quot;SRL vs Michișor Dorin Petru",
+        "type": "Civil",
+        "subject": "Litigii privind executarea obligatiilor",
+        "number": "32-2-403-16022015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E0388334-E9E8-E411-B888-005056A5D154\u0026case_title=Dosar-32-2-62-13012015-1018\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "22-04-2015",
+        "court": "Judecătoria Hincesti",
+        "title": "Tașca Dorin",
+        "type": "Civil",
+        "subject": "Moştenirea",
+        "number": "32-2-62-13012015"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=F51B7FD5-83A7-E411-8112-005056A5D154\u0026case_title=Dosar-32-2-2926-23092014-1975\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "29-01-2015",
+        "court": "Judecătoria Hincesti",
+        "title": "Mîinea Dorina vs Mîinea Veaceslav",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei persoanelor care au copii minori",
+        "number": "32-2-2926-23092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=9067D828-6063-E411-8E3E-005056A5D154\u0026case_title=Dosar-32-1-2949-25092014-2084\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "03-12-2014",
+        "court": "Judecătoria Hincesti",
+        "title": "Cernei Dorin Nicolae - art.201/1 alin.1 CPRM  ",
+        "type": "Penal",
+        "subject": "Violenţa în familie (art. 201[1])",
+        "number": "32-1-2949-25092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=CD92C4B8-F464-E411-8E3E-005056A5D154\u0026case_title=Dosar-32-4-2873-18092014-2204\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "05-11-2014",
+        "court": "Judecătoria Hincesti",
+        "title": "Popescu Dorin Victor - art.197(1) alin.1 CCRM   ",
+        "type": "Contravenţie administrativă",
+        "subject": "Articolul 197[1]. Transportarea ilegală a călătorilor",
+        "number": "32-4-2873-18092014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4993FF2A-AD3D-E411-8E3E-005056A5D154\u0026case_title=Dosar-32-2-1874-20062014-2330\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "16-09-2014",
+        "court": "Judecătoria Hincesti",
+        "title": "Procurorul în interesul Burunsus Dorina",
+        "type": "Civil",
+        "subject": "Dosare privind limitarea în capacitatea de exercitiu sau declararea incapacitatii",
+        "number": "32-2-1874-20062014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=D9E59F00-42C2-E411-8112-005056A5D154\u0026case_title=Dosar-34-2-109-07022014-640\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "06-02-2015",
+        "court": "Judecătoria Leova",
+        "title": "Munteanu Dorina Ion vs Munteanu Gheorghii",
+        "type": "Civil",
+        "subject": "Dosare cu privire la desfacerea casatoriei",
+        "number": "34-2-109-07022014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=58DB304B-D8A9-E311-9DF1-005056A5D154\u0026case_title=Dosar-34-21-176-05032014-1275\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "",
+        "court": "Judecătoria Leova",
+        "title": "Preașca Dorina",
+        "type": "Penal",
+        "subject": "Materialele judecătorului de instrucţie",
+        "number": "34-21-176-05032014"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=C280C23C-DB4A-E311-AD4B-005056A5D154\u0026case_title=Dosar-34-2-54-16012012-1500\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "11-11-2013",
+        "court": "Judecătoria Leova",
+        "title": "Ciobu Vladimir Vasile vs Ciobu Dorina Mihail",
+        "type": "Civil",
+        "subject": "Dosare civile",
+        "number": "34-2-54-16012012"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=4A947DE1-DE3F-E311-AD4B-005056A5D154\u0026case_title=Dosar-34-2-398-21052013-1536\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "28-10-2013",
+        "court": "Judecătoria Leova",
+        "title": "Batog Dorina Nicolai vs Volcov Dumitru",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "34-2-398-21052013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=E753E0CB-474D-E311-AD4B-005056A5D154\u0026case_title=Dosar-34-2-398-21052013-1537\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "28-10-2013",
+        "court": "Judecătoria Leova",
+        "title": "Batog Dorina Nicolai vs Volcov Dumitru",
+        "type": "Civil",
+        "subject": "Dosare pentru încasarea pensiei alimentare pentru întretinerea copiilor",
+        "number": "34-2-398-21052013"
+    },
+    {
+        "pdf_url": "\u003ca href=\"get_decision_doc.php?decision_key=7731FE31-896D-DF11-A33C-00215AE0E41B\u0026case_title=Dosar-34-2p/o-365-25052010-2546\" target=\"_blank\"\u003ePDF_doc\u003c/a\u003e",
+        "date": "01-06-2010",
+        "court": "Judecătoria Leova",
+        "title": "Fiţac Dorina vs Fiţac Artiom",
+        "type": "Civil",
+        "subject": "Materiale ce tin de încasarea pensiei de întretinere a copilului minor care nu necesita stabilirea paternitatii, contestarea paternitatii (maternitatii) sau atragerea în proces a unor alte persoane interesate",
+        "number": "34-2p/o-365-25052010"
+    }
 ]
-
-
-
