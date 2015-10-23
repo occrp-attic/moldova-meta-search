@@ -35,7 +35,7 @@
           }
         }
         vm.courts = courts;
-        vm.types = types;;
+        vm.types = types;
         vm.results = data;
         vm.loading = false;
       });
