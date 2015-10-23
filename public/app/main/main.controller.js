@@ -18,8 +18,7 @@
 
     function search() {
       vm.loading = true;
-      $http.get('data/data.json').success(function(data) {
-      //$http.get('api/v1/courts/search/' + vm.keyword).success(function(data) {
+      $http.get('api/v1/courts/search/' + vm.keyword).success(function(data) {
         var courts = {};
         var types = {};
 
