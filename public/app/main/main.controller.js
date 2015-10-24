@@ -55,6 +55,9 @@
     vm.search = search;
 
     function search() {
+      if (vm.keyword.length <= 0) {
+          return;
+      }
       vm.loading = true;
       //$http.get('data/data.json').success(function (data) {
         $http.get('api/v1/courts/search/' + vm.keyword).success(function(data) {
