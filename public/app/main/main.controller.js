@@ -50,6 +50,7 @@
     vm.results = vm.types = vm.courts = [];
     vm.keyword = '';
     vm.loading = false;
+    vm.error = '';
 
     vm.isCollapsed = false;
     vm.search = search;
@@ -60,30 +61,35 @@
       }
       vm.loading = true;
       //$http.get('data/data.json').success(function (data) {
-        $http.get('api/v1/courts/search/' + vm.keyword).success(function(data) {
-        var courts = {};
-        var types = {};
+        $http.get('api/v1/courts/search/' + vm.keyword)
+          .success(function(data) {
+            var courts = {};
+            var types = {};
 
-        for (var i = 0; i < data.length; i++) {
-          if (data[i] && data[i].court && !courts[data[i].court]) {
-            courts[data[i].court] = 1;
-          } else {
-            courts[data[i].court]++;
-          }
-          if (data[i] && data[i].type && !types[data[i].type]) {
-            types[data[i].type] = 1;
-          } else {
-            types[data[i].type]++;
-          }
-        }
+            for (var i = 0; i < data.length; i++) {
+              if (data[i] && data[i].court && !courts[data[i].court]) {
+                courts[data[i].court] = 1;
+              } else {
+                courts[data[i].court]++;
+              }
+              if (data[i] && data[i].type && !types[data[i].type]) {
+                types[data[i].type] = 1;
+              } else {
+                types[data[i].type]++;
+              }
+            }
 
-        vm.courts = courts;
-        vm.types = types;
-        $log.log(types);
-        $log.log(courts);
-        vm.results = data;
-        vm.loading = false;
-      });
+            vm.courts = courts;
+            vm.types = types;
+            $log.log(types);
+            $log.log(courts);
+            vm.results = data;
+            vm.loading = false;
+          })
+          .error(function(response) {
+              vm.loading = false;
+              vm.error = "Unable to load data."
+          });
     }
 
     vm.selection = [];

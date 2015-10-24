@@ -33,6 +33,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
+                <p ng-if="main.error">{{main.error}}</p>
                 <div class="panel panel-default" ng-show="main.results.length && !main.loading" dir-paginate="result in main.results | check:main.selection | checkCourts:main.selectedCourts | itemsPerPage: 7">
                     <div class="panel-body">
                         <ul class="list-unstyled">
