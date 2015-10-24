@@ -15,3 +15,8 @@ Front-end stuff:
 ... currently working on seting up a stable build.
 
 :)
+
+
+## License
+
+GNU GPLv3
