@@ -1,5 +1,9 @@
 package helpers
 
+import (
+	"net/http"
+)
+
 // APIItem Model
 type APIItem struct {
 	ID    int      `json:"-"`
@@ -24,4 +28,11 @@ type APIResponse struct {
 	Total   int       `json:"total"`
 	Records string    `json:"records"`
 	Rows    []APIItem `json:"rows"`
+}
+
+type HttpResponse struct {
+	url       string
+	response  *http.Response
+	err       error
+	courtName string
 }
