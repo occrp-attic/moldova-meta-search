@@ -1,0 +1,36 @@
+---
+# application tasks to be customized and to run after the main provision
+
+- name: Install dependencies (npm)
+  shell: cd /vagrant/client && npm install
+
+- name: Install dependencies (bower)
+  shell: cd /vagrant/client && bower install
+
+- name: Create GOPATH folder
+  file: path=~/.go state=directory mode=0755
+
+- name: Add GOPATH to .bashrc
+  lineinfile: dest=~/.bashrc line="{{ item }}"
+  with_items:
+    - 'GOPATH=$HOME/.go'
+    - 'export GOPATH'
+    - 'PATH=$PATH:$GOPATH/bin'
+
+- name: Create bash_profile file
+  file: path=~/.bash_profile state=touch mode=0644
+
+- name: Add GOPATH to .bash_profile
+  lineinfile: dest=~/.bash_profile line="{{ item }}"
+  with_items:
+    - 'if [ -f ~/.bashrc ]; then'
+    - '  . ~/.bashrc'
+    - 'fi'
+    - 'GOPATH=$HOME/.go'
+    - 'export GOPATH'
+    - 'PATH=$PATH:$GOPATH/bin'
+
+- name: Install dependencies (golang)
+  shell: go get github.com/gin-gonic/gin
+  environment:
+      GOPATH: /home/vagrant/.go

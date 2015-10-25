@@ -17,6 +17,32 @@ Front-end stuff:
 :)
 
 
+## Development
+
+### Local
+
+
+
+
+### Vagrant
+
+#### Prerequisites
+
+1) Ensure you have installed:
+    * virtualbox (version 4.x recommended, not 5 which is latest and have a lot of bugs)
+    * vagrant (>=1.7.4)
+    * ansible (for UNIX systems only)
+
+2) cd into project folder and start vagrant
+
+    * `cd moldova-meta-search`
+    * `vagrant up`
+
+3) Start Go application
+    * `make go`
+
+
+
 ## License
 
 GNU GPLv3

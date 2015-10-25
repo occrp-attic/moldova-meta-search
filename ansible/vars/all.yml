@@ -1,0 +1,17 @@
+---
+server:
+  install: '1'
+  packages: [vim, git, mc]
+  timezone: Europe/Chisinau
+  locale: en_US.UTF-8
+
+vagrant_local:
+  install: '1'
+  vm: { base_box: trusty64, hostname: default, ip: 192.168.33.110, memory: '512', sharedfolder: ./, syncType: nfs }
+
+nodejs_forever: false
+
+nodejs_npm_global_packages:
+  - name: node-gyp
+  - name: bower
+  - name: gulp

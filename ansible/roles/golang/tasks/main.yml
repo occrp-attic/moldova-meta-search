@@ -1,0 +1,11 @@
+---
+
+- name: Add ppa Repository
+  apt_repository: repo=ppa:ubuntu-lxc/lxd-stable
+
+- name: Update apt
+  apt: update_cache=yes
+
+- name: Install golang
+  apt: pkg=golang state=latest
+

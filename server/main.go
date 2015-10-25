@@ -11,9 +11,9 @@ func main() {
 
 	router := gin.Default()
 	// Load html files
-	router.LoadHTMLGlob("public/*.html")
+	//router.LoadHTMLGlob("public/*.html")
 	// Server javascripts
-	router.Static("/assets/js", "./public/js")
+	//router.Static("/assets/js", "./public/js")
 	// Main Page
 	router.GET("/", courts.IndexAction)
 
