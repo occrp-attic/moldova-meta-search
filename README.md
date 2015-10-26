@@ -41,6 +41,9 @@ Front-end stuff:
 4. Open new terminal window go in the project folder and run the frontend app with
   * `make gulp`
 
+  now app is available on http://192.168.33.110:3000/
+
+  Enjoy!
 
 
 ### Local
