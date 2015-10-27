@@ -1,13 +1,13 @@
 FROM golang:latest
-MAINTAINER aleksandar@occrp.org
+MAINTAINER Aleksandar Todorović <aleksandar@occrp.org>
 
-RUN echo 'deb http://httpredir.debian.org/debian jessie non-free' > /etc/apt/sources.list.d/debian-non-free.list \
-    && export DEBIAN_FRONTEND=noninteractive \
+RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get update \
     && apt-get -y upgrade \
     && apt-get -y dist-upgrade \
+    && apt-get install nodejs npm -y \
     && apt-get clean \
-    && apt-get install nodejs npm -y
+    && rm -rf /var/lib/apt/lists/*
 
 RUN npm install bower
 
