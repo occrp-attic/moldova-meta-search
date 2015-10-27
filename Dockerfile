@@ -21,6 +21,6 @@ COPY /config /config
 COPY /client /client
 COPY /ansible /ansible
 
-CMD go run /server/main.go
+CMD ["go","run","/server/main.go"]
 
 EXPOSE 3000
