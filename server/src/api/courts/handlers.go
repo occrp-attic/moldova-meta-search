@@ -12,20 +12,6 @@ func SearchAction(context *gin.Context) {
 	responses := helpers.GetAPIData(context.Param("searchTerm"))
 	results = helpers.ParseResponses(responses)
 
-	// for slug, courtName := range helpers.CourtSlugs {
-	// 	url := helpers.GenerateAPIUrl(slug)
-	// 	if data, code, errors := helpers.MakeAPICall(
-	// 		url,
-	// 		context.Param("searchTerm"),
-	// 		courtName,
-	// 	); code == 200 && errors == nil {
-	// 		results = append(results, data...)
-	// 	} else {
-	// 		context.JSON(responseCode, errors)
-	// 		break
-	// 	}
-	// }
-
 	context.JSON(responseCode, results)
 }
 

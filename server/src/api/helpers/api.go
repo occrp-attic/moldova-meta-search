@@ -6,9 +6,12 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
+	"regexp"
 	"strings"
 	"time"
 )
+
+var r = regexp.MustCompile(`<a href="(.+)?" `)
 
 // GenerateAPIUrl - Generates url for processing court data
 func GenerateAPIUrl(slug string) string {
@@ -46,7 +49,7 @@ func MakeAPICall(apiURL string, searchTerm string, courtName string) ([]CourtIte
 			// // If there was an error return error, that will be returned later
 			// return data, 400, errors
 		}
-		data = processData(apiResponse, courtName)
+		data = processData(apiResponse, courtName, "ca")
 		return data, 200, nil
 	}
 	return data, 400, nil
@@ -69,8 +72,7 @@ func GetAPIData(searchTerm string) []*HttpResponse {
 			v.Add("sidx", "id")
 			v.Add("sord", "asc")
 			response, err := http.PostForm(apiURL, v)
-			// defer response.Body.Close()
-			ch <- &HttpResponse{apiURL, response, err, courtName}
+			ch <- &HttpResponse{apiURL, response, err, courtName, slug}
 		}(apiURL)
 	}
 
@@ -100,8 +102,7 @@ func ParseResponses(responses []*HttpResponse) []CourtItem {
 			if err := json.Unmarshal(contents, &apiResponse); err != nil {
 				fmt.Printf("%s", err.Error())
 			}
-			fmt.Printf("%s", len(results))
-			results = append(results, processData(apiResponse, httpResponse.courtName)...)
+			results = append(results, processData(apiResponse, httpResponse.courtName, httpResponse.slug)...)
 		} else {
 			fmt.Printf("%s", err.Error())
 		}
@@ -110,14 +111,23 @@ func ParseResponses(responses []*HttpResponse) []CourtItem {
 	return results
 }
 
-func processData(data APIResponse, court string) []CourtItem {
+func processData(data APIResponse, court string, slug string) []CourtItem {
 	var results []CourtItem
 	for _, value := range data.Rows {
 		result := CourtItem{}
 		result.Court = court
 		result.Date = value.Cell[1]
-		// TODO: Add court page + pdf url
-		result.PdfURL = value.Cell[0]
+
+		// TODO: Extract to a separate function
+		pdfURL := value.Cell[0]
+		pdfURL = strings.Replace(pdfURL, `\u003c`, `<`, -1)
+		pdfURL = strings.Replace(pdfURL, `\u003e`, `>`, -1)
+		pdfURL = strings.Replace(pdfURL, `\"`, `"`, -1)
+		pdfURL = strings.Replace(pdfURL, `\u0026`, `&`, -1)
+		if match := r.FindStringSubmatch(pdfURL); len(match) > 0 {
+			result.PdfURL = strings.Replace((PDFBaseURL + match[1]), `%COURT_SLUG%`, slug, -1)
+		}
+
 		result.Subject = value.Cell[5]
 		result.Title = value.Cell[3]
 		result.Type = value.Cell[4]

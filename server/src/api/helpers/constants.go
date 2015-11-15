@@ -7,6 +7,8 @@ const (
 	RowsCount = "50"
 	// FilterString - Filters JSON
 	FilterString = `{"groupOp":"AND","rules":[{"field":"denumire_dosar","op":"cn","data":"%SEARCH_TERM%"}]}`
+	// PDFBaseURL - Base pdf url
+	PDFBaseURL = "http://instante.justice.md/apps/hotariri_judecata/inst/%COURT_SLUG%/"
 )
 
 // CourtSlugs

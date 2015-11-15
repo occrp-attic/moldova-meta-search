@@ -30,9 +30,11 @@ type APIResponse struct {
 	Rows    []APIItem `json:"rows"`
 }
 
+// HttpResponse Model
 type HttpResponse struct {
 	url       string
 	response  *http.Response
 	err       error
 	courtName string
+	slug      string
 }
