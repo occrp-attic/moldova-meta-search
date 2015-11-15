@@ -4,42 +4,38 @@
   angular
     .module('courtApp')
     .controller('MainController', MainController)
-    .filter('check', function() {
+    .filter('checkTypes', function() {
       return function(decisions, types) {
-        console.log(decisions, types);
-
-        var filtereDecisions = [];
+        var filteredDecisions = [];
 
         if (types.length) {
           angular.forEach(decisions, function (decision) {
             if (types.indexOf(decision.type) > -1) {
-              filtereDecisions.push(decision);
+              filteredDecisions.push(decision);
             }
           });
-
-          return filtereDecisions;
         } else {
-          return decisions;
+          filteredDecisions = decisions;
         }
+
+        return filteredDecisions;
       };
     })
     .filter('checkCourts', function() {
       return function(decisions, courts) {
-        console.log(decisions, courts);
-
-        var filtereDecisions = [];
+        var filteredDecisions = [];
 
         if (courts.length) {
           angular.forEach(decisions, function (decision) {
             if (courts.indexOf(decision.court) > -1) {
-              filtereDecisions.push(decision);
+              filteredDecisions.push(decision);
             }
           });
-
-          return filtereDecisions;
         } else {
-          return decisions;
+          filteredDecisions = decisions;
         }
+
+        return filteredDecisions;
       };
     });
 
@@ -54,15 +50,17 @@
     vm.isCollapsed = false;
     vm.search = search;
 
+    vm.selectedTypes = [];
+    vm.selectedCourts = [];
+
     function search() {
       if (vm.keyword.length <= 0) {
           return;
       }
       vm.loading = true;
-      //$http.get('data/data.json').success(function (data) {
-        $http.get('api/v1/courts/search/' + vm.keyword).success(function(data) {
-        var courts = {};
-        var types = {};
+      $http.get('api/v1/courts/search/' + vm.keyword).success(function(data) {
+        var courts = {},
+            types = {};
 
         for (var i = 0; i < data.length; i++) {
           if (data[i] && data[i].court && !courts[data[i].court]) {
@@ -79,41 +77,19 @@
 
         vm.courts = courts;
         vm.types = types;
-        $log.log(types);
-        $log.log(courts);
         vm.results = data;
         vm.loading = false;
       });
     }
 
-    vm.selection = [];
-    vm.selectedCourts = [];
     // toggle selection for a given employee by name
-    vm.toggleSelection = function toggleSelection(type) {
-      var idx = vm.selection.indexOf(type);
+    vm.toggleSelection = function toggleSelection(type, collection) {
+      var selectedIDX = collection.indexOf(type);
 
-      // is currently selected
-      if (idx > -1) {
-        vm.selection.splice(idx, 1);
-      }
-
-      // is newly selected
-      else {
-        vm.selection.push(type);
-      }
-    };
-
-    vm.toggleSelectedCourts = function toggleSelectedCourts(type) {
-      var idx = vm.selectedCourts.indexOf(type);
-
-      // is currently selected
-      if (idx > -1) {
-        vm.selectedCourts.splice(idx, 1);
-      }
-
-      // is newly selected
-      else {
-        vm.selectedCourts.push(type);
+      if (selectedIDX > -1) {
+        collection.splice(selectedIDX, 1);
+      } else {
+        collection.push(type);
       }
     };
   }
