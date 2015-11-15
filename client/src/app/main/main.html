@@ -33,10 +33,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="panel panel-default" ng-show="main.results.length && !main.loading" dir-paginate="result in main.results | check:main.selection | checkCourts:main.selectedCourts | itemsPerPage: 7">
+                <div class="panel panel-default" ng-show="main.results.length && !main.loading" dir-paginate="result in main.results | checkTypes:main.selectedTypes | checkCourts:main.selectedCourts | itemsPerPage: 7">
                     <div class="panel-body">
                         <ul class="list-unstyled">
-                            <li><a class="pdf-link" ng-href="{{result.pdfURL}}" ng-bind-html="result.title"></a></li>
+                            <li><a class="pdf-link" ng-href="{{result.pdf_url}}" ng-bind-html="result.title"></a></li>
                             <li><strong>Date:</strong> {{result.date ? result.date : 'Being processed'}}</li>
                             <li><strong>Document number:</strong> {{result.number}}</li>
                             <li><strong>Court:</strong> {{result.court}}</li>
@@ -56,7 +56,6 @@
             </div>
 
             <div class="col-md-4">
-
                 <div class="form-inline">
                     <div class="form-group">
                         <input ng-model="complex.$" required="required" name="keyword" type="text" class="form-control" placeholder="Quick Filter" />
@@ -65,35 +64,35 @@
 
                 <br />
 
-                    <div class="panel panel-default">
-                        <div class="panel-body form-inline">
-                            <p>Types</p>
+                <div class="panel panel-default">
+                    <div class="panel-body form-inline">
+                        <p>Types</p>
 
-                            <ul class="list-unstyled">
-                                <li ng-repeat="(type, count) in main.types">
-                                    <label class="checkbox">
-                                        <input name="types" type="checkbox" value="{{type}}" ng-checked="main.selection.indexOf(type) > -1" ng-click="main.toggleSelection(type)" />
-                                        {{ type }} <span class="label label-default">{{ count }}</span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
+                        <ul class="list-unstyled">
+                            <li ng-repeat="(type, count) in main.types">
+                                <label class="checkbox">
+                                    <input name="types" type="checkbox" value="{{type}}" ng-checked="main.selectedTypes.indexOf(type) > -1" ng-click="main.toggleSelection(type, main.selectedTypes)" />
+                                    {{ type }} <span class="label label-default">{{ count }}</span>
+                                </label>
+                            </li>
+                        </ul>
                     </div>
+                </div>
 
-                    <div class="panel panel-default">
-                        <div class="panel-body form-inline">
-                            <p>Courts</p>
+                <div class="panel panel-default">
+                    <div class="panel-body form-inline">
+                        <p>Courts</p>
 
-                            <ul class="list-unstyled">
-                                <li ng-repeat="(court, count) in main.courts">
-                                    <label class="checkbox">
-                                        <input name="types" type="checkbox" value="{{court}}" ng-checked="main.selectedCourts.indexOf(court) > -1" ng-click="main.toggleSelectedCourts(court)" />
-                                        {{ court }} <span class="label label-default">{{ count }}</span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
+                        <ul class="list-unstyled">
+                            <li ng-repeat="(court, count) in main.courts">
+                                <label class="checkbox">
+                                    <input name="types" type="checkbox" value="{{court}}" ng-checked="main.selectedCourts.indexOf(court) > -1" ng-click="main.toggleSelection(court, main.selectedCourts)" />
+                                    {{ court }} <span class="label label-default">{{ count }}</span>
+                                </label>
+                            </li>
+                        </ul>
                     </div>
+                </div>
             </div>
         </div>
     </div>
