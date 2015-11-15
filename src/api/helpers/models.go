@@ -35,4 +35,5 @@ type HttpResponse struct {
 	response  *http.Response
 	err       error
 	courtName string
+	slug      string
 }
